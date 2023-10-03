@@ -1,0 +1,55 @@
+@font-face {
+    font-family: 'Barlow-Regular';
+    src: url(/fonts/Barlow-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Barlow-Medium';
+    src: url(/fonts/Barlow-Medium.ttf);
+}
+
+
+.menu {
+    border-radius: 25px;
+    font-family: 'Barlow-Medium';
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    width: 40%;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    column-gap: 30px;
+    
+}
+
+.link {
+    text-decoration: none;
+    color: rgb(244, 240, 125);
+    margin: 10px 25px;
+    padding: 5px 20px;
+}
+
+.link:hover {
+    margin: 10px 25px;
+    padding: 5px 20px;
+    background-color: rgba(255, 255, 255, 0.259);
+    border-radius: 50px;
+    transition: background-color 1s;
+}
+
+.active {
+    text-decoration: none;
+    color: rgb(244, 240, 125);
+    margin: 10px 25px;
+    padding: 5px 20px;
+    background-color: rgba(255, 255, 255, 0.259);
+    border-radius: 50px;
+}
+
+
+
+
+
+
+
