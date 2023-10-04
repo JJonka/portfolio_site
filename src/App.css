@@ -9,10 +9,12 @@
 }
 
 body {
-	align-content: center;
-	font-family: 'Barlow-Light';
-	justify-content: center;
+	display: flex;
+	flex-direction: column;
+    align-items: center;
+    font-family: 'Barlow-Light';
 	text-align: center;
+    padding-left: calc(100vw - 100%);
 }
 
 .mainBackground {
@@ -28,14 +30,6 @@ body {
     z-index: -1;
 }
 
-.mainBackground1 {
-    animation-direction: alternate-reverse;
-    animation-duration: 4s;
-}
-  
-.mainBackground2 {
-    animation-duration: 5s;
-}
   
 @keyframes slide {
     0% {
