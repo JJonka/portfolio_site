@@ -18,7 +18,7 @@ body {
 }
 
 .mainBackground {
-    background-image: linear-gradient(135deg, #ea3fe4 0%, #3399f3 90%);
+    background-image: linear-gradient(135deg, #ea3fe4 0%, #108af4 90%);
     animation: slide 5s ease-in-out infinite alternate;
     animation-fill-mode: backwards;
     position: fixed;
