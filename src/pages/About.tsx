@@ -1,12 +1,12 @@
 import Menu from "../components/Menu";
 import styles from "./About.module.scss"
+import EndOfSection from "../components/EndOfSection";
 
 const About = () => {
     return (
         <div className={styles.card}>
             <Menu></Menu>    
             <div className={styles.container}>
-                <img src="/src/assets/jj.png" className={styles.image} alt="Jo_pic"></img>
                 <div className={styles.text}>
                     <h1 className={styles.header}>That's me.</h1>
                     <div className={styles.box}>
@@ -17,8 +17,9 @@ const About = () => {
                         </p>
                     </div>
                 </div>
+                <img src="/src/assets/jj.png" className={styles.image} alt="Jo_pic"></img>
             </div>
-            <img src="/src/assets/end_of_section.svg" className={styles.endOfSection}></img>
+            <EndOfSection></EndOfSection>
         </div>
     )
 };

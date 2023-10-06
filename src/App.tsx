@@ -5,7 +5,7 @@ import Contact from './pages/Contact';
 import './App.css'
 
 
-function App() {
+const App = () => {
     return (
       <div>
       <div className='mainBackground' />

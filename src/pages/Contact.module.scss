@@ -18,7 +18,8 @@
     flex-direction: column;
     align-items: center;
     height: 500px;
-    width: 1000px;
+    width: 1100px;
+    margin-bottom: 100px;
 }
 
 .header {
@@ -30,51 +31,14 @@
     
 }
 
-
 .logos {
     display: flex;
     flex-direction: row;
     gap: 250px;
     margin-top: 50px;
-    margin-bottom: 100px;
+    margin-bottom: 120px;
     justify-content: center;
     width: 1000px;
-}
-
-.logo {
-    max-width: 150px;
-    max-height: 150px;
-    padding-top: 20px;
-}
-
-.logo:hover {
-    padding-top: 10px;
-    max-width: 200px;
-    max-height: 200px;
-    
-}
-
-.logoBox {
-    width: 200px;
-    height: 150px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    
-}
-
-.endOfSection {
-    max-width: 10%;
-    max-height: 10%;
-    padding-top: 30px;
-}
-
-.logoText {
-    margin-top: 8px;
-    font-size: 20px;
-    text-decoration: none;
-    color: rgb(244, 240, 125);
-    font-family: "Barlow-Medium";
 }
 
 a {

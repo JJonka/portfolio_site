@@ -8,7 +8,7 @@
     font-family: "BraahOne-Regular";
     font-size: 110px;
     margin-bottom: 10px;
-    margin-top: 15px; 
+    margin-top: 25px; 
 }
 
 .introduction {
@@ -24,8 +24,8 @@
     position: absolute; 
     top: 20px;
     left: 0;
-    max-width: 50%;
-    max-height: 50%;
+    max-width: 40%;
+    max-height: 40%;
     -webkit-transform: scaleX(-1);
     transform: scaleX(-1);
 }
@@ -34,8 +34,8 @@
     position: absolute; 
     bottom: 0;
     right: 0;
-    max-width: 50%;
-    max-height: 50%;
+    max-width: 40%;
+    max-height: 40%;
 }
 
 .container {
@@ -44,7 +44,7 @@
     align-items: center;
     position: relative;
     width: 1300px;
-    height: 500px;
+    height: 600px;
 }
 
 .card {
