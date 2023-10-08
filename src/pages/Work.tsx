@@ -6,7 +6,7 @@ const Work = () => {
         <div className={styles.card}>
             <Menu></Menu>
             <div className={styles.container}>
-                <h1 className={styles.header}>Work history</h1>
+                <h1 className={styles.header}>Technologies I work with</h1>
                 <div className={styles.workMap}>
                     <div className={styles.box}>
                     </div>

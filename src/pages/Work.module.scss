@@ -14,16 +14,16 @@
 }
 
 .header {
-    color: rgb(244, 240, 125);
+    color: var(--main-color);
     font-family: "BraahOne-Regular";
-    font-size: 60px;
+    font-size: 50px;
     margin-bottom: 10px;
     margin-top: 15px; 
 }
 
 .box {
     background-color: rgba(255, 255, 255, 0.419);
-    border-color: rgb(244, 240, 125);
+    border-color: var(--main-color);
     border-radius: 50px;
     border-style: solid;
     border-width: 2px;

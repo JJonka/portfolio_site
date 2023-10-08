@@ -7,10 +7,10 @@ const  HomePage = () => {
         
         <div className={styles.container}>
         <Menu></Menu>
-          <img src="/src/assets/stars.png" className={styles.imgTop}></img>
+          <img src="" className={styles.imgTop}></img>
           <h1 className={styles.header}>Hello, world!<br />I'm Joanna.</h1>
           <h2 className={styles.introduction}>A junior frontend developer, <br />ready to work and gain experience.</h2>
-          <img src="/src/assets/stars.png" className={styles.imgBottom}></img>
+          <img src="" className={styles.imgBottom}></img>
         </div>
       </div>
     )

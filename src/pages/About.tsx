@@ -17,7 +17,7 @@ const About = () => {
                         </p>
                     </div>
                 </div>
-                <img src="/src/assets/jj.png" className={styles.image} alt="Jo_pic"></img>
+                <img src="/src/assets/jj.svg" className={styles.image} alt="Jo_pic"></img>
             </div>
             <EndOfSection></EndOfSection>
         </div>

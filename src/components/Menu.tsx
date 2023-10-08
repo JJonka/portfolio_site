@@ -1,13 +1,30 @@
-import { Link} from "react-router-dom";
-import styles from "./Menu.module.scss"
+import styles from "./Menu.module.scss";
+import  LinkToPage  from "./LinkToPage"
 
 const Menu = () => {
     
     return (
         <div className={styles.menu}>
-            <Link to='/' className={document.URL == "http://localhost:5173/" ? styles.active : styles.link}>Home </Link>
-            <Link to='/about' className={document.URL == "http://localhost:5173/about" ? styles.active : styles.link}> About </Link>
-            <Link to='/contact' className={document.URL == "http://localhost:5173/contact" ? styles.active : styles.link}> Contact</Link>
+            <LinkToPage 
+                link = {'/'} 
+                urlTo = {"http://localhost:5173/"} 
+                linkTitle= {"Home"}
+            ></LinkToPage>
+            <LinkToPage 
+                link = {'/about'} 
+                urlTo = {"http://localhost:5173/about"}
+                linkTitle= {"About"}
+            ></LinkToPage>
+            <LinkToPage 
+                link = {'/work'} 
+                urlTo = {"http://localhost:5173/work"}
+                linkTitle= {"Work"}
+            ></LinkToPage>
+            <LinkToPage 
+                link = {'/contact'} 
+                urlTo = {"http://localhost:5173/contact"}
+                linkTitle= {"Contact"}
+            ></LinkToPage>
         </div>
     )
 };

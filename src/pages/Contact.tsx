@@ -17,11 +17,13 @@ const Contact = () => {
                             logoText ={"in/joanna-jurasz/"}
                         ></LogoIcon>
                     </a>
-                    <LogoIcon
-                        logo = {"/src/assets/mail_logo.svg"}
-                        altName = {"mail_logo"}
-                        logoText ={"joanna.jurasz21@gmail.com"}
-                    ></LogoIcon>
+                    <a href="mailto:joanna.jurasz21@gmail.com">
+                        <LogoIcon
+                            logo = {"/src/assets/mail_logo.svg"}
+                            altName = {"mail_logo"}
+                            logoText ={"joanna.jurasz21@gmail.com"}
+                        ></LogoIcon>
+                    </a>
                     <a href="https://github.com/JJonka" target="_blank">
                         <LogoIcon
                             logo = {"/src/assets/github_logo.svg"}
