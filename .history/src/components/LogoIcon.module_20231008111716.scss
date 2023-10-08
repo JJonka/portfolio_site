@@ -1,0 +1,29 @@
+.logo {
+    max-width: 150px;
+    max-height: 150px;
+    padding-top: 20px;
+}
+
+.logo:hover {
+    padding-top: 10px;
+    max-width: 200px;
+    max-height: 200px;
+    transition: 1s
+}
+
+.logoBox {
+    width: 200px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.logoText {
+    margin-top: 8px;
+    font-size: 20px;
+    text-decoration: none;
+    color: var(--main-color);
+    font-family: "Barlow-Medium";
+}

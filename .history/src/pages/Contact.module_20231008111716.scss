@@ -1,0 +1,48 @@
+@font-face {
+	font-family: 'Barlow-Regular' ;
+	src: url(/fonts/Barlow-Regular.ttf);
+}
+@font-face {
+    font-family: 'Barlow-Medium';
+    src: url(/fonts/Barlow-Medium.ttf);
+}
+
+.card {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 500px;
+    width: 1100px;
+    margin-bottom: 100px;
+}
+
+.header {
+    color: var(--main-color);
+    font-family: "BraahOne-Regular";
+    font-size: 70px;
+    margin-bottom: 10px;
+    margin-top: 30px;
+    
+}
+
+.logos {
+    display: flex;
+    flex-direction: row;
+    gap: 250px;
+    margin-top: 50px;
+    margin-bottom: 120px;
+    justify-content: center;
+    width: 1000px;
+}
+
+a {
+    text-decoration: none;
+}
+
+

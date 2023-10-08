@@ -1,0 +1,47 @@
+@font-face {
+  font-family: 'Barlow-Light';
+  src: url(/fonts/Barlow-Light.ttf);
+}
+
+@font-face {
+	font-family: 'Barlow-Regular' ;
+	src: url(/fonts/Barlow-Regular.ttf);
+}
+
+body {
+	display: flex;
+	flex-direction: column;
+    align-items: center;
+    font-family: 'Barlow-Light';
+	text-align: center;
+    padding-left: calc(100vw - 100%);
+    --main-color: #daba02;
+}
+
+.mainBackground {
+    background-image: linear-gradient(135deg, #fc79d0 15%, #ff00aa 50% , #2719e0 85%);
+    animation: slide 5s linear infinite alternate;
+    animation-fill-mode: backwards;
+    animation-delay: -1s;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: -50%;
+    right: -50%;
+    opacity: 0.95;
+    z-index: -1;
+}
+
+
+
+  
+@keyframes slide {
+    0% {
+        transform: translateX(-20%);
+    }
+    100% {
+        transform: translateX(-5%);
+    }
+    
+}
+
