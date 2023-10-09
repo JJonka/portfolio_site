@@ -1,6 +1,6 @@
 .logo {
-    padding-top: 20px;
-    src {
+    svg {
+        padding-top: 20px;
         max-width: 150px;
         max-height: 150px;
         fill: var(--main-color);
@@ -8,10 +8,13 @@
 }
 
 .logo:hover {
-    padding-top: 10px;
-    max-width: 200px;
-    max-height: 200px;
-    transition: 1s
+    svg {
+        padding-top: 10px;
+        max-width: 200px;
+        max-height: 200px;
+        fill: var(--main-color);
+        transition: 1s;
+    }
 }
 
 .logoBox {
