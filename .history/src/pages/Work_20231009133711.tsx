@@ -58,7 +58,7 @@ const Work = () => {
                     </div>
                 </div>
             </div>
-            
+            <EndOfSection></EndOfSection>
             <div className={styles.container}>
                 <h1 className={styles.header}>Technologies I work with</h1>
                 <div className={styles.logos}>

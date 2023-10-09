@@ -2,7 +2,6 @@ import Menu from "../components/Menu";
 import styles from "./Work.module.scss";
 import { ReactSVG } from "react-svg";
 import Box from "../components/Box";
-import EndOfSection from "../components/EndOfSection";
 
 
 
@@ -33,11 +32,10 @@ const Work = () => {
                         </Box >
                     </div>
                 </div>
-                <EndOfSection></EndOfSection>
                 <div className={styles.project}> 
                     <div className={styles.item2}>
                         <Box header={"Technologies used:"}>
-                            HTML  CSS  VanillaJS&emsp;  JavaScript&emsp;  Jira&emsp;  Git
+                            HTML  CSS  VanillaJS  JavaScript  Jira  Git
                         </Box>
                     </div>
                     <div className={styles.item1}>
@@ -57,8 +55,8 @@ const Work = () => {
                         </Box>
                     </div>
                 </div>
+                
             </div>
-            
             <div className={styles.container}>
                 <h1 className={styles.header}>Technologies I work with</h1>
                 <div className={styles.logos}>

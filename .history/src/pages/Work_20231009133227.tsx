@@ -37,7 +37,7 @@ const Work = () => {
                 <div className={styles.project}> 
                     <div className={styles.item2}>
                         <Box header={"Technologies used:"}>
-                            HTML  CSS  VanillaJS&emsp;  JavaScript&emsp;  Jira&emsp;  Git
+                            HTML  CSS  VanillaJS  JavaScript  Jira  Git
                         </Box>
                     </div>
                     <div className={styles.item1}>
@@ -58,7 +58,9 @@ const Work = () => {
                     </div>
                 </div>
             </div>
-            
+            <EndOfSection
+                style={{height: "50px", width: "50px"}}            
+            ></EndOfSection>
             <div className={styles.container}>
                 <h1 className={styles.header}>Technologies I work with</h1>
                 <div className={styles.logos}>
