@@ -4,7 +4,7 @@
     align-items: center;
     position: relative;
     width: 1000px;
-    margin-top: 20px;
+    margin-top: 10px;
     margin-bottom: 50px;
 }
 
@@ -17,9 +17,9 @@
 .header {
     color: var(--main-color);
     font-family: "BraahOne-Regular";
-    font-size: 80px;
+    font-size: 60px;
     margin-bottom: 0px;
-    margin-top: 15px; 
+    margin-top: 5px; 
 }
 
 
@@ -28,25 +28,11 @@
     flex-direction: column;
     height: 450px;
     gap: 40px;
-    margin-top: 60px;
+    margin-top: 30px;
     margin-bottom: 30px;    
 }
 
-.logo {
-    svg {
-        fill: var(--main-color);
-        width: 100px;
-        height: 100px;
-    }
-}
 
-.logo:hover {
-    svg {
-        fill: #daba0291;
-        transition: 1s;
-    }
-
-}
 
 .line {
     display: flex;
