@@ -16,19 +16,19 @@ const Contact = () => {
                     <div className={styles.logos}>
                         <a href="https://www.linkedin.com/in/joanna-jurasz/" target="_blank">
                             <LogoIcon
-                                logo = {"src/assets/linkedin_logo.svg"}
+                                logo = {"/assets/linkedin_logo.svg"}
                                 logoText ={"in/joanna-jurasz/"}
                             ></LogoIcon>
                         </a>
                         <a href="mailto:joanna.jurasz21@gmail.com">
                             <LogoIcon
-                                logo = {"src/assets/mail_logo.svg"}
+                                logo = {"/assets/mail_logo.svg"}
                                 logoText ={"joanna.jurasz21@gmail.com"}
                             ></LogoIcon>
                         </a>
                         <a href="https://github.com/JJonka" target="_blank">
                             <LogoIcon
-                                logo = {"src/assets/github_logo.svg"}
+                                logo = {"/assets/github_logo.svg"}
                                 logoText ={"github.com/JJonka"}
                             ></LogoIcon>
                         </a>                    

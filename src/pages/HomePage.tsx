@@ -9,10 +9,10 @@ const  HomePage = () => {
         <div className={styles.container}>
           <Menu></Menu>
           <Transitions>
-            <img src="..\src\assets\stars2.svg" className={styles.imgTop}></img>
+            <img src="/assets/stars2.svg" className={styles.imgTop}></img>
             <h1 className={styles.header}>Hello, world!<br />I'm Joanna.</h1>
             <h2 className={styles.introduction}>A junior frontend developer, <br />ready to work and gain experience.</h2>
-            <img src="..\src\assets\stars.svg" className={styles.imgBottom}></img>
+            <img src="/assets/stars.svg" className={styles.imgBottom}></img>
           </Transitions>
         </div>
       </Card>

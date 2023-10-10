@@ -17,22 +17,22 @@ const Work = () => {
                     <h1 className={styles.header}>Technologies I work with</h1>
                     <div className={styles.logos}>
                         <div className={styles.line}>
-                            <TechIcon icon="src\assets\techLogos\html.svg" tooltipText="HTML" />
-                            <TechIcon icon="src\assets\techLogos\css.svg" tooltipText="CSS" />
-                            <TechIcon icon="src\assets\techLogos\js.svg" tooltipText="JavaScript" />
-                            <TechIcon icon="src\assets\techLogos\ts.svg" tooltipText="TypeScript" />
-                            <TechIcon icon="src\assets\techLogos\react.svg" tooltipText="React" />
+                            <TechIcon icon="/assets/techLogos/html.svg" tooltipText="HTML" />
+                            <TechIcon icon="/assets/techLogos/css.svg" tooltipText="CSS" />
+                            <TechIcon icon="/assets/techLogos/js.svg" tooltipText="JavaScript" />
+                            <TechIcon icon="/assets/techLogos/ts.svg" tooltipText="TypeScript" />
+                            <TechIcon icon="/assets/techLogos/react.svg" tooltipText="React" />
                         </div>
                         <div className={styles.line}>    
-                            <TechIcon icon="src\assets\techLogos\git.svg" tooltipText="Git" />
-                            <TechIcon icon="src\assets\techLogos\sass.svg" tooltipText="SASS" />
-                            <TechIcon icon="src\assets\techLogos\npm.svg" tooltipText="NPM" />
-                            <TechIcon icon="src\assets\techLogos\yarn.svg" tooltipText="YARN" />
+                            <TechIcon icon="/assets/techLogos/git.svg" tooltipText="Git" />
+                            <TechIcon icon="/assets/techLogos/sass.svg" tooltipText="SASS" />
+                            <TechIcon icon="/assets/techLogos/npm.svg" tooltipText="NPM" />
+                            <TechIcon icon="/assets/techLogos/yarn.svg" tooltipText="YARN" />
                         </div>
                         <div className={styles.line}>                    
-                            <TechIcon icon="src\assets\techLogos\linux.svg" tooltipText="Linux" />
-                            <TechIcon icon="src\assets\techLogos\windows.svg" tooltipText="Windows" />
-                            <TechIcon icon="src\assets\techLogos\vsc.svg" tooltipText="Visual Studio Code" />
+                            <TechIcon icon="/assets/techLogos/linux.svg" tooltipText="Linux" />
+                            <TechIcon icon="/assets/techLogos/windows.svg" tooltipText="Windows" />
+                            <TechIcon icon="/assets/techLogos/vsc.svg" tooltipText="Visual Studio Code" />
                         </div>
                     </div>
                 </div>
