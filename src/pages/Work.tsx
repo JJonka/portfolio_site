@@ -50,7 +50,7 @@ const Work = () => {
                                 to create business homepage for a geodesic company. My responsibilities
                                 included creating responsive views based on prepaired earlier mock-ups
                                 and performing a code review.
-                                <img src="/src/assets/dkart-logo.png" alt="dkart_logo" ></img>
+                                <img src="/assets/dkart-logo.png" alt="dkart_logo" ></img>
                             </Box>
                         </div>
                         <div className={styles.item3}>
