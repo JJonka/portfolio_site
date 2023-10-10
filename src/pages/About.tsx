@@ -20,7 +20,7 @@ const About = () => {
                                 I like to go swimming, jogging or hiking with my friends.
                             </Box>
                         </div>
-                        <img src="/src/assets/jj.svg" className={styles.image} alt="Jo_pic"></img>
+                        <img src="/public/assets/jj.svg" className={styles.image} alt="Jo_pic"></img>
                     </div>
                 <EndOfSection></EndOfSection>
                 </Transitions>
