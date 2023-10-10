@@ -2,11 +2,12 @@ import Menu from "../components/Menu";
 import styles from "./Contact.module.scss"
 import EndOfSection from "../components/EndOfSection";
 import LogoIcon from "../components/LogoIcon";
+import Card from "../components/Card";
 
 
 const Contact = () => {
     return (
-        <div className={styles.card}>
+        <Card>
             <Menu></Menu>
             <div className={styles.container}>
                 <h1 className={styles.header}>Let's stay in touch!</h1>
@@ -32,7 +33,7 @@ const Contact = () => {
                 </div>
                 <EndOfSection></EndOfSection>
             </div>
-        </div>
+        </Card>
     )
 };
 

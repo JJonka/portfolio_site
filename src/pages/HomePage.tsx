@@ -1,10 +1,10 @@
+import Card from "../components/Card";
 import Menu from "../components/Menu"; 
 import styles from "./HomePage.module.scss"
 
 const  HomePage = () => {
     return (
-      <div className={styles.card}>
-        
+      <Card>
         <div className={styles.container}>
         <Menu></Menu>
           <img src="..\src\assets\stars2.svg" className={styles.imgTop}></img>
@@ -12,7 +12,7 @@ const  HomePage = () => {
           <h2 className={styles.introduction}>A junior frontend developer, <br />ready to work and gain experience.</h2>
           <img src="..\src\assets\stars.svg" className={styles.imgBottom}></img>
         </div>
-      </div>
+      </Card>
     )
 }
 

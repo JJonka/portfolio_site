@@ -2,12 +2,14 @@ import Menu from "../components/Menu";
 import styles from "./Work.module.scss";
 import Box from "../components/Box";
 import TechIcon from "../components/TechIcon";
+import Card from "../components/Card";
+import EndOfSection from "../components/EndOfSection";
 
 
 
 const Work = () => {
     return (
-        <div className={styles.card}>
+        <Card>
             <Menu></Menu>
             <div className={styles.container}>
                 <h1 className={styles.header}>Technologies I work with</h1>
@@ -35,34 +37,9 @@ const Work = () => {
             <div className={styles.container}>
                 <h1 className={styles.header}>Projects</h1>
                 <div className={styles.project}> 
-                    <div className={styles.item1}>
-                        <Box header={"Application for estate agents"} >
-                            &emsp;The project involves working with a team of two seniors and few juniors to
-                            create real estate agents manager. The application includes features like
-                            list of clients, that can be match with estates in database based on
-                            preferences they have. It also allows to create and manage list of meeting.
-                            My responsibilities during creating the application involves implementation
-                            of a form for adding new meetings. This project allows me to learn and
-                            practice working with group of people using technologies like Github and
-                            Jira.
-                        </Box>
-                    </div>
                     <div className={styles.item2}>
-                        <Box header={"Technologies used:"}>
-                            React
-                            Typescript
-                            Nextjs
-                            Styled components
-                            Graphql
-                            Nest
-                            Prisma
-                        </Box >
-                    </div>
-                </div>
-                <div className={styles.project}> 
-                    <div className={styles.item2}>
-                        <Box header={"Technologies used:"}>
-                            HTML  CSS  VanillaJS  JavaScript  Jira  Git
+                        <Box header={"Technologies"}>
+                            HTML,  CSS,  VanillaJS,  JavaScript,  Jira,  Git
                         </Box>
                     </div>
                     <div className={styles.item1}>
@@ -71,18 +48,37 @@ const Work = () => {
                             to create business homepage for a geodesic company. My responsibilities
                             included creating responsive views based on prepaired earlier mock-ups
                             and performing a code review.
+                            <img src="/src/assets/dkart-logo.png" alt="dkart_logo" ></img>
                         </Box>
                     </div>
                     <div className={styles.item3}>
-                        <Box>
-                            <img src="/src/assets/dkart_logo.png" alt="dkart_logo" ></img>
+                        <Box header="Links">
+                            <a href="http://geodesy-web-page.vercel.app" target="_blank" className={styles.link}>Page</a>
+                            <a href="https://github.com/FutureInventor/GeodesyWebPage" target="_blank" className={styles.link}>Repository</a>
                         </Box>
+                    </div>
+                </div>
+                <EndOfSection></EndOfSection>
+                <div className={styles.project}> 
+                    <div className={styles.item1}>
+                        <Box header={"Application for estate agents"} >
+                            &emsp;I am currently in a group of seniors and a few juniors working on a project 
+                            to develop a web application for estate agents. Its features include a&nbsp;list of 
+                            clients who can be matched with estates in&nbsp;the database based on their preferences, 
+                            as well as a meeting manager. My responsibilities during creating the application involved 
+                            the&nbsp;implementation of a form for adding new meetings. This project allows me to learn 
+                            and practice group working using technologies like Github and Jira.
+                        </Box>
+                    </div>
+                    <div className={styles.item2}>
+                        <Box header={"Technologies"}>
+                            React, Typescript, Nextjs, Styled&nbsp;components, Graphql, Nest, Prisma
+                        </Box >
                     </div>
                 </div>
                 
             </div>
-            
-        </div>
+        </Card>  
     )
 };
 

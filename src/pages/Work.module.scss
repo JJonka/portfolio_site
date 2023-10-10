@@ -5,14 +5,10 @@
     position: relative;
     width: 1000px;
     margin-top: 10px;
-    margin-bottom: 50px;
+    margin-bottom: 20px;
 }
 
-.card {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
+
 
 .header {
     color: var(--main-color);
@@ -26,10 +22,10 @@
 .logos {
     display: flex;
     flex-direction: column;
-    height: 450px;
+    height: 430px;
     gap: 40px;
     margin-top: 30px;
-    margin-bottom: 30px;    
+    margin-bottom: 15px;    
 }
 
 
@@ -54,10 +50,24 @@
     grid-column-end: 3;
     grid-row-start: 1;
     grid-row-end: 3;
+    text-align: justify;
+    width: 642px;
+    
 }
 
-.item2 {
-    text-align: left;
+
+
+.link {
+    text-decoration: none;
+    text-align: center;
+    width: 170px;
+    color: var(--main-color);
+    font-weight: 700;
+}
+
+.link:hover {
+    transition: 1s;
+    color: #daba027b;
 }
 
 img {
