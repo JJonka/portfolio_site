@@ -7,10 +7,10 @@ interface Content {
 const Transitions = ({children}: Content) => {
     return (
         <motion.div
-            initial={{marginTop: -30, opacity: 0}}
-            animate={{marginTop: 0, opacity: 1}}
-            exit={{marginTop: -30, opacity: 0}}
-            transition={{duration: 2}}
+            initial={{opacity: 0}}
+            animate={{opacity: 1}}
+            exit={{opacity: 0}}
+            transition={{duration: 3}}
     
         >
             {children}

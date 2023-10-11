@@ -1,9 +1,9 @@
 import Menu from "../components/Menu";
 import styles from "./About.module.scss"
-import EndOfSection from "../components/EndOfSection";
 import Box from "../components/Box";
 import Card from "../components/Card";
 import Transitions from "../components/Transitions";
+import Copyright from "../components/Copyright";
 
 const About = () => {
     return (
@@ -22,7 +22,7 @@ const About = () => {
                         </div>
                         <img src="/assets/jj.svg" className={styles.image} alt="Jo_pic"></img>
                     </div>
-                <EndOfSection></EndOfSection>
+                <Copyright></Copyright>
                 </Transitions>
             </Card>
     )
