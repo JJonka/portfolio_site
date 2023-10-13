@@ -5,8 +5,6 @@ import TechIcon from "../components/TechIcon";
 import Card from "../components/Card";
 import EndOfSection from "../components/EndOfSection";
 import Transitions from "../components/Transitions";
-import Copyright from "../components/Copyright";
-
 
 
 const Work = () => {
@@ -83,9 +81,6 @@ const Work = () => {
                     </div>
                 </Transitions>
             </Card>
-            <Transitions>
-                <Copyright></Copyright> 
-            </Transitions>
         </div> 
     )
 };
