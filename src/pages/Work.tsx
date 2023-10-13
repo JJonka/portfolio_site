@@ -41,18 +41,18 @@ const Work = () => {
                     <div className={styles.container}>
                         <h1 className={styles.header}>Projects</h1>
                         <div className={styles.project}> 
-                            <div className={styles.item2}>
-                                <Box header={"Technologies"}>
-                                    HTML,  CSS,  VanillaJS,  JavaScript,  Jira,  Git
-                                </Box>
-                            </div>
                             <div className={styles.item1}>
                                 <Box header={"Buisness Homepage"} >
                                     &emsp;The project involved working in a group of two juniors and one senior
                                     to create business homepage for a geodesic company. My responsibilities
                                     included creating responsive views based on prepaired earlier mock-ups
                                     and performing a code review.
-                                    <img src="/assets/dkart-logo.png" alt="dkart_logo" ></img>
+                                    <img src="/assets/dkart-logo.png" alt="dkart_logo" className={styles.image}></img>
+                                </Box>
+                            </div>
+                            <div className={styles.item2}>
+                                <Box header={"Technologies"}>
+                                    HTML,  CSS,  VanillaJS,  JavaScript,  Jira,  Git
                                 </Box>
                             </div>
                             <div className={styles.item3}>

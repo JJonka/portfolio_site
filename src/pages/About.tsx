@@ -11,6 +11,7 @@ const About = () => {
                 <Menu></Menu>    
                 <Transitions>
                     <div className={styles.container}>
+                        <img src="/assets/jj.svg" className={styles.image} alt="Jo_pic"></img>
                         <div className={styles.text}>
                             <h1 className={styles.header}>That's me.</h1>
                             <Box>
@@ -20,7 +21,7 @@ const About = () => {
                                 I like to go swimming, jogging or hiking with my friends.
                             </Box>
                         </div>
-                        <img src="/assets/jj.svg" className={styles.image} alt="Jo_pic"></img>
+                        
                     </div>
                 <Copyright></Copyright>
                 </Transitions>
