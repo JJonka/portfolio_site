@@ -46,11 +46,10 @@
     
     .logo:hover {
         svg {
-            padding-top: 10px;
-            max-width: 200px;
-            max-height: 200px;
+            padding-top: 20px;
+            max-width: 120px;
+            max-height: 120px;
             fill: var(--main-color);
-            transition: 1s;
         }
     }
     
