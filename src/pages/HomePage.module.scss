@@ -22,7 +22,7 @@
 
 .imgTop {
     position: absolute; 
-    top: 80px;
+    top: 0px;
     left: 180px;
     max-width: 13%;
     max-height: 13%;
@@ -30,7 +30,7 @@
 
 .imgBottom {
     position: absolute; 
-    bottom: 170px;
+    bottom: 250px;
     right: 200px;
     max-width: 13%;
     max-height: 13%;
@@ -44,50 +44,53 @@
     width: 1300px;
     height: 630px;
     margin-bottom: 0px;
+    margin-top: 0px;
 }
 
 
 @media only screen and (max-width: 480px) {
+    .header {
+        color: var(--main-color);
+        font-family: "BraahOne-Regular";
+        font-size: 70px;
+        margin-bottom: 10px;
+        margin-top: 15px; 
+    }
+    
+    .introduction {
+        color: var(--main-color);
+        font-family: "BraahOne-Regular";
+        font-size: 20px;
+        font-weight: 50;
+        margin-top: 5px;
+        
+    }
+    
+    .imgTop {
+        position: absolute; 
+        top: 20px;
+        left: 30px;
+        max-width: 40px;
+        max-height: 40px;
+    }
+    
+    .imgBottom {
+        position: absolute; 
+        bottom: 50px;
+        right: 0px;
+        max-width: 40px;
+        max-height: 40px;
+    }
+    
     .container {
         display: flex;
         flex-direction: column;
         align-items: center;
         position: relative;
         width: 350px;
-        height: 470px;
+        height: 450px;
+        margin-bottom: 0px;
+        margin-top: 0px;
     }
 
-    .imgTop {
-        position: absolute; 
-        top: 60px;
-        left: 50px;
-        max-width: 20px;
-        max-height: 20px;
-    }
-    
-    .imgBottom {
-        position: absolute; 
-        bottom: 50px;
-        right: 30px;
-        max-width: 20px;
-        max-height: 20px;
-    }
-
-    .header {
-        color: var(--main-color);
-        font-family: "BraahOne-Regular";
-        font-size: 60px;
-        margin-bottom: 10px;
-        margin-top: 15px; 
-    }
-
-
-    .introduction {
-        color: var(--main-color);
-        font-family: "BraahOne-Regular";
-        font-size: 15px;
-        font-weight: 50;
-        margin-top: 5px;
-        
-    }
 }
