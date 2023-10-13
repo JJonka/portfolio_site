@@ -3,7 +3,6 @@ import styles from "./Contact.module.scss"
 import LogoIcon from "../components/LogoIcon";
 import Card from "../components/Card";
 import Transitions from "../components/Transitions";
-import Copyright from "../components/Copyright";
 
 
 const Contact = () => {
@@ -34,7 +33,6 @@ const Contact = () => {
                         </a>                    
                     </div>
                 </div>
-            <Copyright></Copyright>
             </Transitions>
         </Card>
     )

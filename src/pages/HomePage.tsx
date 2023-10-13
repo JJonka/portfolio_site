@@ -1,5 +1,4 @@
 import Card from "../components/Card";
-import Copyright from "../components/Copyright";
 import Menu from "../components/Menu"; 
 import Transitions from "../components/Transitions";
 import styles from "./HomePage.module.scss"
@@ -16,9 +15,6 @@ const  HomePage = () => {
             <img src="/assets/stars.svg" className={styles.imgBottom}></img>
           </Transitions>
         </div>
-        <Transitions>
-          <Copyright></Copyright>
-        </Transitions>
       </Card>
     )
 }

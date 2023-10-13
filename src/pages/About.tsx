@@ -3,7 +3,6 @@ import styles from "./About.module.scss"
 import Box from "../components/Box";
 import Card from "../components/Card";
 import Transitions from "../components/Transitions";
-import Copyright from "../components/Copyright";
 
 const About = () => {
     return (
@@ -21,9 +20,7 @@ const About = () => {
                                 I like to go swimming, jogging or hiking with my friends.
                             </Box>
                         </div>
-                        
                     </div>
-                <Copyright></Copyright>
                 </Transitions>
             </Card>
     )
