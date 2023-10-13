@@ -40,3 +40,38 @@ h1 {
     color:  rgb(20, 10, 159);
 
 }
+
+@media only screen and (max-width: 480px) {
+    .box {
+        background-color: rgba(255, 253, 229, 0.277);
+        border-color: var(--main-color);
+        border-radius: 50px;
+        border-style: solid;
+        border-width: 3px;
+    }
+    
+    .text {
+        font-family: "Barlow-Regular";
+        font-size: 15px;
+        color:  rgb(8, 8, 145);
+        margin: 0;
+        padding-bottom: 25px;
+        padding-top: 25px;
+        padding-left: 25px;
+        padding-right: 25px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+    
+    h1 {
+        font-family: "Barlow-Medium";
+        font-size: 20px;
+        padding-left: 30px;
+        padding-right: 30px;
+        margin-bottom: -10px;
+        color:  rgb(20, 10, 159);
+    
+    }
+}
