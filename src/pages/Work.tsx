@@ -102,7 +102,11 @@ const Work = () => {
                 one senior to create business homepage for a geodesic company.
                 My responsibilities included creating responsive views based on
                 prepaired earlier mock-ups and performing a code review.
-                <img src="/assets/dkart-logo.png" alt="dkart_logo"></img>
+                <img
+                  className={styles.img}
+                  src="/assets/dkart-logo.png"
+                  alt="dkart_logo"
+                ></img>
               </Box>
             </div>
             <div className={styles.item3}>
@@ -129,7 +133,35 @@ const Work = () => {
           <h1 className={styles.header}>Projects</h1>
           <div className={styles.project}>
             <div className={styles.item1}>
+              <Box header={"My portfolio site"}>
+                <div className={styles.date}>
+                  <i>(2023.09 - 2023.10)</i>
+                </div>
+                <br />
+                During work on my portfolio website I have used technologies:
+                React, Typescript, HTML, CSS Modules, Vite. <br />
+                <br />
+                Click and checkout its repository:
+                <br />
+                <br />
+                <a
+                  href="https://github.com/JJonka/portfolio_site"
+                  target="_blank"
+                  className={styles.link}
+                >
+                  Repository
+                </a>
+              </Box>
+            </div>
+          </div>
+          <EndOfSection></EndOfSection>
+          <div className={styles.project}>
+            <div className={styles.item1}>
               <Box header={"Application for estate agents"}>
+                <div className={styles.date}>
+                  <i>(2023.04 - 2023.11)</i>
+                </div>
+                <br />
                 &emsp;I was in a group of seniors and a few juniors working on a
                 project to develop a web application for estate agents. Its
                 features included a&nbsp;list of clients who can be matched with
@@ -144,6 +176,47 @@ const Work = () => {
               <Box header={"Technologies"}>
                 React, Typescript, Nextjs, Styled&nbsp;components, Graphql,
                 Nest, Prisma
+              </Box>
+            </div>
+          </div>
+          <EndOfSection></EndOfSection>
+          <div className={styles.project}>
+            <div className={styles.item1}>
+              <Box
+                header={
+                  "Creating a hemoglobin measuring device using Arduino and 3D printing technology"
+                }
+              >
+                <div className={styles.date}>
+                  <i>(2020.10 - 2021.06)</i>
+                </div>
+                <br />
+                &emsp;This project was a part of my master's thesis. I was
+                created small and mobile POCT (Point of Care Testing) device,
+                allowing for hemoglobin concentration measurement in capillary
+                blood. <br /> <br />
+                My work included: <br />- designing the optical system and all
+                of the device case using Tinkercad,
+                <br /> - assembling the electronic system consisting of: light
+                source, light sensor, LCD display and Arduino Mega 2560
+                microcontroller board,
+                <br />- developing software, which allowed making hemoglobin
+                measurements.
+              </Box>
+            </div>
+            <div className={styles.item2}>
+              <Box header={"Designs and prints"}>
+                <img
+                  className={styles.image}
+                  src="/assets/mechanic_parts.png"
+                  alt="mechanic_parts"
+                ></img>
+                <br />
+                <img
+                  className={styles.image}
+                  src="/assets/prints.png"
+                  alt="mechanic_parts"
+                ></img>
               </Box>
             </div>
           </div>
