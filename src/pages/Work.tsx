@@ -6,7 +6,6 @@ import Card from "../components/Card";
 import EndOfSection from "../components/EndOfSection";
 import Transitions from "../components/Transitions";
 
-
 const Work = () => {
   return (
     <Card>
@@ -54,7 +53,7 @@ const Work = () => {
           </div>
         </div>
         <div className={styles.container}>
-          <h1 className={styles.header}>Internship</h1>
+          <h1 className={styles.header}>Work history</h1>
           <div className={styles.project}>
             <div className={styles.item1}>
               <Box header={"KAR HUD Software Development"}>
@@ -62,17 +61,17 @@ const Work = () => {
                   <i>(2023.11 - present)</i>
                 </div>
                 <br />
-                During internship, my responsibilites involves: <br />
+                My responsibilites include: <br />
                 - creating scalable and responsive web application, <br />-
                 writing unit tests, using React Testing Library and Jest <br />-
-                debugging code with browser/text editorebugger <br />
+                debugging code with browser/text editor debugger <br />
                 - doing code review, <br />
                 - consulting creation of components with&nbsp;client,
                 <br />- creating generic components library using Storybook
                 <br />- using version control system - git, <br />- work
                 planning and time management using Jira, <br />
-                - making operations on databases, <br />
-                - creating and managing application's server. <br /> <br />
+                - making operations on databases (MongoDB), <br />- creating and
+                managing application's server (Express.js). <br /> <br />
               </Box>
             </div>
             <div className={styles.item2}>
@@ -153,7 +152,6 @@ const Work = () => {
       </Transitions>
     </Card>
   );
-
 };
 
 export default Work;
