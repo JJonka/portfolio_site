@@ -33,3 +33,41 @@
     color: var(--main-color);
     font-family: "Barlow-Medium";
 }
+
+@media only screen and (max-width: 480px) {
+    .logo {
+        svg {
+            padding-top: 20px;
+            max-width: 120px;
+            max-height: 120px;
+            fill: var(--main-color);
+        }
+    }
+    
+    .logo:hover {
+        svg {
+            padding-top: 20px;
+            max-width: 120px;
+            max-height: 120px;
+            fill: var(--main-color);
+        }
+    }
+    
+    .logoBox {
+        width: 170px;
+        height: 120px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 50px;
+        
+    }
+    
+    .logoText {
+        margin-top: 5px;
+        font-size: 20px;
+        text-decoration: none;
+        color: var(--main-color);
+        font-family: "Barlow-Medium";
+    }
+}

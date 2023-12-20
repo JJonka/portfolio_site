@@ -1,6 +1,5 @@
 import Menu from "../components/Menu";
 import styles from "./Contact.module.scss"
-import EndOfSection from "../components/EndOfSection";
 import LogoIcon from "../components/LogoIcon";
 import Card from "../components/Card";
 import Transitions from "../components/Transitions";
@@ -33,7 +32,6 @@ const Contact = () => {
                             ></LogoIcon>
                         </a>                    
                     </div>
-                    <EndOfSection></EndOfSection>
                 </div>
             </Transitions>
         </Card>

@@ -6,6 +6,7 @@ import Card from "../components/Card";
 import EndOfSection from "../components/EndOfSection";
 import Transitions from "../components/Transitions";
 
+
 const Work = () => {
   return (
     <Card>
@@ -152,6 +153,7 @@ const Work = () => {
       </Transitions>
     </Card>
   );
+
 };
 
 export default Work;

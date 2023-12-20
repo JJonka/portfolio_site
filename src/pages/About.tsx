@@ -1,6 +1,5 @@
 import Menu from "../components/Menu";
 import styles from "./About.module.scss"
-import EndOfSection from "../components/EndOfSection";
 import Box from "../components/Box";
 import Card from "../components/Card";
 import Transitions from "../components/Transitions";
@@ -11,6 +10,7 @@ const About = () => {
                 <Menu></Menu>    
                 <Transitions>
                     <div className={styles.container}>
+                        <img src="/assets/jj.svg" className={styles.image} alt="Jo_pic"></img>
                         <div className={styles.text}>
                             <h1 className={styles.header}>That's me.</h1>
                             <Box>
@@ -20,9 +20,7 @@ const About = () => {
                                 I like to go swimming, jogging or hiking with my friends.
                             </Box>
                         </div>
-                        <img src="/assets/jj.svg" className={styles.image} alt="Jo_pic"></img>
                     </div>
-                <EndOfSection></EndOfSection>
                 </Transitions>
             </Card>
     )
