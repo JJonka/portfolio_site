@@ -1,79 +1,85 @@
 .container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    position: relative;
-    width: 1000px;
-    margin-top: 10px;
-    margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  width: 1000px;
+  margin-top: 10px;
+  margin-bottom: 20px;
 }
-
-
 
 .header {
-    color: var(--main-color);
-    font-family: "BraahOne-Regular";
-    font-size: 60px;
-    margin-bottom: 0px;
-    margin-top: 5px; 
+  color: var(--main-color);
+  font-family: "BraahOne-Regular";
+  font-size: 60px;
+  margin-bottom: 0px;
+  margin-top: 5px;
 }
-
 
 .logos {
-    display: flex;
-    flex-direction: column;
-    height: 430px;
-    gap: 40px;
-    margin-top: 30px;
-    margin-bottom: 15px;    
+  display: flex;
+  flex-direction: column;
+  height: 430px;
+  gap: 40px;
+  margin-top: 30px;
+  margin-bottom: 15px;
 }
 
-
-
 .line {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    gap: 70px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 70px;
 }
 
 .project {
-    margin-bottom: 50px;
-    margin-top: 50px;
-    display: grid;
-    grid-template-columns: auto auto auto;
-    gap: 30px;
+  margin-bottom: 50px;
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 30px;
 }
 
 .item1 {
-    grid-column-start: 1;
-    grid-column-end: 3;
-    grid-row-start: 1;
-    grid-row-end: 3;
-    text-align: justify;
-    width: 642px;
-    
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 3;
+  text-align: justify;
+  width: 642px;
 }
 
-
-
 .link {
-    text-decoration: none;
-    text-align: center;
-    width: 170px;
-    color: var(--main-color);
-    font-weight: 700;
+  text-decoration: none;
+  text-align: center;
+  width: 170px;
+  color: var(--main-color);
+  font-weight: 700;
 }
 
 .link:hover {
-    transition: 1s;
-    color: #daba027b;
+  transition: 1s;
+  color: #daba027b;
 }
 
 img {
-    border-radius: 50px;
-    width: 400px;
-    margin-top: 20px;
+  border-radius: 50px;
+  width: 400px;
+  margin-top: 20px;
 }
 
+.item2 {
+  text-align: left;
+}
 
+.date {
+  font-family: "Barlow-Regular";
+  font-size: 15px;
+  color: rgb(8, 8, 145);
+  margin: 0;
+  text-align: left;
+}
+
+.item3 {
+  align-items: baseline;
+}
