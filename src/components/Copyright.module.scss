@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'Barlow-Medium';
+    src: url(/fonts/Barlow-Medium.ttf);
+}
+
+.copyright {
+    color: rgba(8, 8, 145, 0.7);
+    font-family: "Barlow-Medium";
+    position: fixed;
+    bottom: 10px;
+    left: 10px;
+    font-size: 10px;
+}

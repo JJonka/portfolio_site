@@ -6,7 +6,7 @@
 .header {
     color: var(--main-color);
     font-family: "BraahOne-Regular";
-    font-size: 110px;
+    font-size: 120px;
     margin-bottom: 10px;
     margin-top: 15px; 
 }
@@ -22,18 +22,18 @@
 
 .imgTop {
     position: absolute; 
-    top: 50px;
-    left: 30px;
-    max-width: 25%;
-    max-height: 25%;
+    top: 0px;
+    left: 180px;
+    max-width: 13%;
+    max-height: 13%;
 }
 
 .imgBottom {
     position: absolute; 
-    bottom: 30px;
-    right: 10px;
-    max-width: 25%;
-    max-height: 25%;
+    bottom: 250px;
+    right: 200px;
+    max-width: 13%;
+    max-height: 13%;
 }
 
 .container {
@@ -42,11 +42,56 @@
     align-items: center;
     position: relative;
     width: 1300px;
-    height: 675px;
+    height: 630px;
+    margin-bottom: 0px;
+    margin-top: 0px;
 }
 
-.card {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+
+@media only screen and (max-width: 480px) {
+    .header {
+        color: var(--main-color);
+        font-family: "BraahOne-Regular";
+        font-size: 60px;
+        margin-bottom: 30px;
+        margin-top: 15px; 
+    }
+    
+    .introduction {
+        color: var(--main-color);
+        font-family: "BraahOne-Regular";
+        font-size: 15px;
+        font-weight: 50;
+        margin-top: 5px;
+        
+    }
+    
+    .imgTop {
+        position: absolute; 
+        top: 40px;
+        left: 50px;
+        max-width: 40px;
+        max-height: 40px;
+    }
+    
+    .imgBottom {
+        position: absolute; 
+        bottom: 100px;
+        right: 15px;
+        max-width: 40px;
+        max-height: 40px;
+    }
+    
+    .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        width: 350px;
+        height: 500px;
+        margin-bottom: 0px;
+        margin-top: 0px;
+    }
+
 }
