@@ -87,11 +87,6 @@ const Work = () => {
           </div>
           <EndOfSection></EndOfSection>
           <div className={styles.project}>
-            <div className={styles.item2}>
-              <Box header={"Technologies"}>
-                HTML, CSS, VanillaJS, JavaScript, Jira, Git
-              </Box>
-            </div>
             <div className={styles.item1}>
               <Box header={"Buisness Homepage"}>
                 <div className={styles.date}>
@@ -107,6 +102,11 @@ const Work = () => {
                   src="/assets/dkart-logo.png"
                   alt="dkart_logo"
                 ></img>
+              </Box>
+            </div>
+            <div className={styles.item2}>
+              <Box header={"Technologies"}>
+                HTML, CSS, VanillaJS, JavaScript, Jira, Git
               </Box>
             </div>
             <div className={styles.item3}>
