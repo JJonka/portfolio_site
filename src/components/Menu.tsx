@@ -7,7 +7,7 @@ const Menu = () => {
       <div className={styles.menu}>
         <LinkToPage
           link={"/"}
-          urlTo={"https://jjurasz.com"}
+          urlTo={"https://jjurasz.com/"}
           linkTitle={"Home"}
         ></LinkToPage>
         <LinkToPage
