@@ -8,6 +8,8 @@ interface LinkTo {
 }
 
 const LinkToPage = (props: LinkTo) => {
+  console.log(document.URL);
+  console.log(props.urlTo);
   return (
     <div>
       <Link
