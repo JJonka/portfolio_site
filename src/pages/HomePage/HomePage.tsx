@@ -1,7 +1,7 @@
-import Card from "../components/Card";
-import Copyright from "../components/Copyright";
-import Menu from "../components/Menu";
-import Transitions from "../components/Transitions";
+import Card from "../../components/Card/Card";
+import Copyright from "../../components/Copyright/Copyright";
+import Menu from "../../components/Menu/Menu";
+import Transitions from "../../components/Transitions/Transitions";
 import styles from "./HomePage.module.scss";
 
 const HomePage = () => {

@@ -16,7 +16,7 @@ const LinkToPage = (props: LinkTo) => {
         to={props.link}
         className={document.URL == props.urlTo ? styles.active : styles.link}
       >
-        {props.linkTitle}{" "}
+        {props.linkTitle}
       </Link>
     </div>
   );
