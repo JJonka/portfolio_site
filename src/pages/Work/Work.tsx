@@ -1,10 +1,10 @@
-import Menu from "../components/Menu";
+import Menu from "../../components/Menu/Menu";
 import styles from "./Work.module.scss";
-import Box from "../components/Box";
-import TechIcon from "../components/TechIcon";
-import Card from "../components/Card";
-import EndOfSection from "../components/EndOfSection";
-import Transitions from "../components/Transitions";
+import Box from "../../components/Box/Box";
+import TechIcon from "../../components/TechIcon/TechIcon";
+import Card from "../../components/Card/Card";
+import EndOfSection from "../../components/EndOfSection/EndOfSection";
+import Transitions from "../../components/Transitions/Transitions";
 
 const Work = () => {
   return (

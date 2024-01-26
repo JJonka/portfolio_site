@@ -1,5 +1,5 @@
 import styles from "./Menu.module.scss";
-import LinkToPage from "./LinkToPage";
+import LinkToPage from "../LinkToPage/LinkToPage";
 
 const Menu = () => {
   return (
