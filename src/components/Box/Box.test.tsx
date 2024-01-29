@@ -5,10 +5,10 @@ import Box from "./Box";
 
 describe("Box", () => {
   it("text 'Box' should be rendered", () => {
-    // ARRANGE
+    // ARRANGE && ACT
     const { getByText } = render(<Box>Box</Box>);
 
-    // ACT & ASSERT
+    // ASSERT
     expect(getByText("Box")).toBeInTheDocument();
   });
 });

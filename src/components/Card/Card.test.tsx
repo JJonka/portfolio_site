@@ -5,10 +5,10 @@ import Card from "./Card";
 
 describe("Card", () => {
   it("text 'Card' should be rendered", () => {
-    // ARRANGE
+    // ARRANGE && ACT
     const { getByText } = render(<Card>Card</Card>);
 
-    // ACT & ASSERT
+    // ASSERT
     expect(getByText("Card")).toBeInTheDocument();
   });
 });

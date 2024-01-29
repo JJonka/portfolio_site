@@ -5,10 +5,10 @@ import { BrowserRouter } from "react-router-dom";
 
 describe("Menu", () => {
   it("text 'Home' should be render", () => {
-    // ARRANGE
+    // ARRANGE && ACT
     const { getByText } = render(<Menu></Menu>, { wrapper: BrowserRouter });
 
-    // ACT && ASSERT
+    // ASSERT
     expect(getByText("Home")).toBeInTheDocument();
   });
 });

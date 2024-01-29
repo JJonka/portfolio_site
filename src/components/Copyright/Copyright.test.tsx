@@ -5,10 +5,10 @@ import Copyright from "./Copyright";
 
 describe("Copyright", () => {
   it("component with testId 'copyright' should be rendered", () => {
-    // ARRANGE
+    // ARRANGE && ACT
     const { getByTestId } = render(<Copyright></Copyright>);
 
-    // ACT & ASSERT
+    // ASSERT
     expect(getByTestId("copyright")).toBeInTheDocument();
   });
 });

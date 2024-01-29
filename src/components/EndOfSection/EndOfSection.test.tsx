@@ -5,10 +5,10 @@ import EndOfSection from "./EndOfSection";
 
 describe("EndOfSection", () => {
   it("component with testId 'endOfSection' should be rendered", () => {
-    // ARRANGE
+    // ARRANGE && ACT
     const { getByTestId } = render(<EndOfSection></EndOfSection>);
 
-    // ACT & ASSERT
+    // ASSERT
     expect(getByTestId("endOfSection")).toBeInTheDocument();
   });
 });
