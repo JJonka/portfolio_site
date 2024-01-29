@@ -5,12 +5,12 @@ import TechIcon from "./TechIcon";
 
 describe("TechIcon", () => {
   it("text 'text' should be rendered", () => {
-    // ARRANGE
+    // ARRANGE && ACT
     const { getByText } = render(
       <TechIcon icon="icon" tooltipText="text"></TechIcon>
     );
 
-    // ACT & ASSERT
+    // ASSERT
     expect(getByText("text")).toBeInTheDocument();
   });
 });

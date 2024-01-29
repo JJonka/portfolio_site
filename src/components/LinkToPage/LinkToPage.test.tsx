@@ -6,7 +6,7 @@ import { BrowserRouter } from "react-router-dom";
 
 describe("  LinkToPage", () => {
   it("text 'Link' should be rendered", () => {
-    // ARRANGE
+    // ARRANGE && ACT
     const { getByText } = render(
       <LinkToPage
         link="https://jjurasz.com"
@@ -16,7 +16,7 @@ describe("  LinkToPage", () => {
       { wrapper: BrowserRouter }
     );
 
-    // ACT & ASSERT
+    // ASSERT
     expect(getByText("Link")).toBeInTheDocument();
   });
 });

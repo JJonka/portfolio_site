@@ -5,10 +5,10 @@ import Transitions from "./Transitions";
 
 describe("Transitions", () => {
   it("component 'Transitions' is rendered", () => {
-    // ARRANGE
+    // ARRANGE && ACT
     const { getByText } = render(<Transitions>Transitions</Transitions>);
 
-    // ACT & ASSERT
+    // ASSERT
     expect(getByText("Transitions")).toBeInTheDocument();
   });
 });

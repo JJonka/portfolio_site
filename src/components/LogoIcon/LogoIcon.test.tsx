@@ -5,12 +5,12 @@ import LogoIcon from "./LogoIcon";
 
 describe("LogoIcon", () => {
   it("text 'logoText' should be rendered", () => {
-    // ARRANGE
+    // ARRANGE && ACT
     const { getByText } = render(
       <LogoIcon logo="logo" logoText="logoText"></LogoIcon>
     );
 
-    // ACT & ASSERT
+    // ASSERT
     expect(getByText("logoText")).toBeInTheDocument();
   });
 });
