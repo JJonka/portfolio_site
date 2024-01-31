@@ -4,11 +4,11 @@ import "@testing-library/jest-dom";
 import Copyright from "./Copyright";
 
 describe("Copyright", () => {
-  it("component with testId 'copyright' should be rendered", () => {
+  it("component should be rendered properly", () => {
     // ARRANGE && ACT
-    const { getByTestId } = render(<Copyright></Copyright>);
+    const { getByText } = render(<Copyright></Copyright>);
 
     // ASSERT
-    expect(getByTestId("copyright")).toBeInTheDocument();
+    expect(getByText("© 2023 Joanna Jurasz")).toBeInTheDocument();
   });
 });

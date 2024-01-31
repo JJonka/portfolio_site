@@ -1,14 +1,14 @@
 import { render } from "@testing-library/react";
 import { it, describe, expect } from "vitest";
 import "@testing-library/jest-dom";
-import Card from "./Card";
+import Container from "./Container";
 
-describe("Card", () => {
+describe("Container", () => {
   it("child should be rendered properly", () => {
     // ARRANGE && ACT
-    const { getByText } = render(<Card>Card</Card>);
+    const { getByText } = render(<Container>Container</Container>);
 
     // ASSERT
-    expect(getByText("Card")).toBeInTheDocument();
+    expect(getByText("Container")).toBeInTheDocument();
   });
 });

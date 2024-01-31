@@ -1,17 +1,14 @@
 import { Routes, Route } from "react-router-dom";
-import HomePage from "./pages/HomePage/HomePage";
-import About from "./pages/About/About";
-import Contact from "./pages/Contact/Contact";
-import Work from "./pages/Work/Work";
+import HomePage from "../pages/HomePage/HomePage";
+import About from "../pages/About/About";
+import Contact from "../pages/Contact/Contact";
+import Work from "../pages/Work/Work";
 import "./App.css";
 
 const App = () => {
   return (
     <div>
       <div className="mainBackground" />
-      <div className="layer1" />
-      <div className="layer2" />
-
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/about" element={<About />} />

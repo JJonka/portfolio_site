@@ -3,15 +3,17 @@ import styles from "./Contact.module.scss";
 import LogoIcon from "../../components/LogoIcon/LogoIcon";
 import Card from "../../components/Card/Card";
 import Transitions from "../../components/Transitions/Transitions";
+import Container from "../../components/Container/Container";
+import Header from "../../components/Header/Header";
 
 const Contact = () => {
   return (
     <Card>
       <Menu></Menu>
       <Transitions>
-        <div className={styles.container}>
-          <h1 className={styles.header}>Let's stay in touch!</h1>
-          <div className={styles.logos}>
+        <Container page="container-contact">
+          <Header page="header-contact">Let's stay in touch!</Header>
+          <div data-testid="logos" className={styles.logos}>
             <a
               href="https://www.linkedin.com/in/joanna-jurasz/"
               target="_blank"
@@ -34,7 +36,7 @@ const Contact = () => {
               ></LogoIcon>
             </a>
           </div>
-        </div>
+        </Container>
       </Transitions>
     </Card>
   );
