@@ -4,7 +4,7 @@ import "@testing-library/jest-dom";
 import WorkDate from "./WorkDate";
 
 describe("WorkDate", () => {
-  it("child should be rendered properly", () => {
+  it("should render the child properly", () => {
     // ARRANGE && ACT
     const { getByText } = render(<WorkDate>{"WorkDate"}</WorkDate>);
 

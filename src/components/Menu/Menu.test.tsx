@@ -11,7 +11,7 @@ vi.mock("../LinkToPage/LinkToPage.tsx", () => ({
 }));
 
 describe("Menu", () => {
-  it("children should be rendered properly with their props", () => {
+  it("should render the children properly with their props", () => {
     // ARRANGE && ACT
     const { getByText, getByTestId } = render(<Menu></Menu>);
 

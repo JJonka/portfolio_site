@@ -14,7 +14,7 @@ vi.mock("react-svg", () => ({
 }));
 
 describe("LogoIcon", () => {
-  it("children should be rendered properly with props", () => {
+  it("should render the children properly with props", () => {
     // ARRANGE && ACT
     const { getByText } = render(
       <LogoIcon logo="logo" logoText="logoText"></LogoIcon>

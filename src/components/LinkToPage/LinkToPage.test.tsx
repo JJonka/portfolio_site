@@ -13,32 +13,24 @@ vi.mock("react-router-dom", () => ({
     )),
 }));
 
+vi.mock("./LinkToPage.tsx", () => ({
+  default: (props: ComponentProps<typeof LinkToPage>) => (
+    <div data-testid={props.urlTo}>
+      <Link to={props.link}>{props.linkTitle}</Link>
+    </div>
+  ),
+}));
+
 describe("LinkToPage", () => {
-  it("children should be rendered properly", () => {
+  it("should render the children properly", () => {
     // ARRANGE && ACT
-    const { getByText } = render(
-      <LinkToPage
-        link="https://jjurasz.com"
-        urlTo="https://jjurasz.com"
-        linkTitle="Link"
-      ></LinkToPage>
+    const { getByText, getByTestId } = render(
+      <LinkToPage link="childID" urlTo="parentID" linkTitle="Link"></LinkToPage>
     );
 
     // ASSERT
     expect(getByText("Link")).toBeInTheDocument();
-  });
-
-  it("link prop should be passed properly", () => {
-    // ARRANGE && ACT
-    const { getByTestId } = render(
-      <LinkToPage
-        link="https://jjurasz.com"
-        urlTo="https://jjurasz.com"
-        linkTitle="Link"
-      ></LinkToPage>
-    );
-
-    // ASSERT
-    expect(getByTestId("https://jjurasz.com")).toBeInTheDocument();
+    expect(getByTestId("childID")).toBeInTheDocument();
+    expect(getByTestId("parentID")).toBeInTheDocument();
   });
 });

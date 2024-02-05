@@ -14,7 +14,7 @@ vi.mock("react-svg", () => ({
 }));
 
 describe("EndOfSection", () => {
-  it("child should be rendered properly with its props", () => {
+  it("should render the child properly with its props", () => {
     // ARRANGE && ACT
     const { getByText } = render(<EndOfSection></EndOfSection>);
 

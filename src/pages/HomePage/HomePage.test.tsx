@@ -31,7 +31,7 @@ vi.mock("../../components/Header/Header", () => ({
 }));
 
 describe("HomePage", () => {
-  it("children should be rendered properly with their props", () => {
+  it("should render the children properly with their props", () => {
     // ARRANGE && ACT
     const { getByText, getByTestId } = render(<HomePage></HomePage>);
 

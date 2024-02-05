@@ -35,7 +35,7 @@ vi.mock("../../components/Box/Box", () => ({
 }));
 
 describe("About", () => {
-  it("children should be rendered properly with their props", () => {
+  it("should render the children properly with their props", () => {
     // ARRANGE && ACT
     const { getByText, getByTestId } = render(<About></About>);
 

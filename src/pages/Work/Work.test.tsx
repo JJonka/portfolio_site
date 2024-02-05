@@ -51,7 +51,7 @@ vi.mock("../../components/TechIcon/TechIcon", () => ({
 }));
 
 describe("Work", () => {
-  it("children should be rendered properly", () => {
+  it("should render the children properly", () => {
     // ARRANGE && ACT
     const { getByText, getAllByText } = render(<Work></Work>);
 

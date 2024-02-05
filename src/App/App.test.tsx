@@ -19,7 +19,7 @@ vi.mock("react-router-dom", () => ({
 }));
 
 describe("App", () => {
-  it("children should be rendered properly with their props", () => {
+  it("should render the children properly with their props", () => {
     // ARRANGE && ACT
     const { getByText } = render(<App></App>);
 

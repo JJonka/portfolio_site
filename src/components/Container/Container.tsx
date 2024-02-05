@@ -1,12 +1,12 @@
 import styles from "./Container.module.scss";
 
-interface Content {
+interface IProps {
   children: JSX.Element | JSX.Element[] | string;
   page?: string;
 }
 
-const Container = (props: Content) => {
-  return <div className={styles[`${props.page}`]}>{props.children}</div>;
-};
+const Container = (props: IProps) => (
+  <div className={styles[`${props.page}`]}>{props.children}</div>
+);
 
 export default Container;

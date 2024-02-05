@@ -4,7 +4,7 @@ import "@testing-library/jest-dom";
 import Copyright from "./Copyright";
 
 describe("Copyright", () => {
-  it("component should be rendered properly", () => {
+  it("should render the component properly", () => {
     // ARRANGE && ACT
     const { getByText } = render(<Copyright></Copyright>);
 

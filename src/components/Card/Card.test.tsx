@@ -4,7 +4,7 @@ import "@testing-library/jest-dom";
 import Card from "./Card";
 
 describe("Card", () => {
-  it("child should be rendered properly", () => {
+  it("should render child properly", () => {
     // ARRANGE && ACT
     const { getByText } = render(<Card>Card</Card>);
 
