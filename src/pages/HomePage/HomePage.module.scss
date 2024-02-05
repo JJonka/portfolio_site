@@ -4,27 +4,18 @@
 }
 
 .introduction {
-  color: var(--main-color);
+  color: rgb(200, 170, 23);
+  text-align: left;
   font-family: "BraahOne-Regular";
   font-size: 40px;
-  font-weight: 50;
+  font-weight: 20;
   margin-top: 5px;
 }
 
-.imgTop {
-  position: absolute;
-  top: -10px;
-  left: 180px;
-  max-width: 13%;
-  max-height: 13%;
-}
-
-.imgBottom {
-  position: absolute;
-  bottom: 250px;
-  right: 200px;
-  max-width: 13%;
-  max-height: 13%;
+.text {
+  display: flex;
+  flex-direction: column;
+  width: 750px;
 }
 
 @media only screen and (max-width: 480px) {

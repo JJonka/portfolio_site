@@ -3,7 +3,6 @@ import styles from "./Work.module.scss";
 import Box from "../../components/Box/Box";
 import TechIcon from "../../components/TechIcon/TechIcon";
 import Card from "../../components/Card/Card";
-import EndOfSection from "../../components/EndOfSection/EndOfSection";
 import Transitions from "../../components/Transitions/Transitions";
 import Container from "../../components/Container/Container";
 import Header from "../../components/Header/Header";
@@ -68,7 +67,6 @@ const Work = () => (
             </Box>
           </Item>
         </Project>
-        <EndOfSection></EndOfSection>
         <Project>
           <Item page="item1">
             <Box header={"Buisness Homepage"}>
@@ -133,7 +131,6 @@ const Work = () => (
             </Box>
           </Item>
         </Project>
-        <EndOfSection></EndOfSection>
         <Project>
           <Item page="item1">
             <Box
@@ -172,7 +169,6 @@ const Work = () => (
             </Box>
           </Item>
         </Project>
-        <EndOfSection></EndOfSection>
       </Container>
       <Container page="container-work">
         <Header page="header-work">Technologies I work with</Header>
