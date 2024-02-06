@@ -9,6 +9,7 @@ import Header from "../../components/Header/Header";
 import Project from "../../components/Project/Project";
 import WorkDate from "../../components/WorkDate/WorkDate";
 import Item from "../../components/Item/Item";
+import EndOfSection from "../../components/EndOfSection/EndOfSection";
 
 const Work = () => (
   <Card>
@@ -67,6 +68,7 @@ const Work = () => (
             </Box>
           </Item>
         </Project>
+        <EndOfSection></EndOfSection>
         <Project>
           <Item page="item1-work">
             <Box header={"Buisness Homepage"}>
@@ -89,7 +91,7 @@ const Work = () => (
             </Box>
           </Item>
           <Item page="item3-work">
-            <Box header="Links">
+            <Box header="Click to check out page and its repository ">
               <a
                 href="http://geodesy-web-page.vercel.app"
                 target="_blank"
@@ -121,7 +123,7 @@ const Work = () => (
             </Box>
           </Item>
           <Item page="item2-work">
-            <Box header="Click to checkout code">
+            <Box header="Click to check out the code">
               <a
                 href="https://github.com/JJonka/portfolio_site"
                 target="_blank"
@@ -132,6 +134,7 @@ const Work = () => (
             </Box>
           </Item>
         </Project>
+        <EndOfSection></EndOfSection>
         <Project>
           <Item page="item1-workLast">
             <Box

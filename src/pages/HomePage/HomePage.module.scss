@@ -22,24 +22,18 @@
   .introduction {
     color: var(--main-color);
     font-family: "BraahOne-Regular";
-    font-size: 15px;
+    font-size: 25px;
     font-weight: 50;
     margin-top: 5px;
+    text-align: center;
   }
 
-  .imgTop {
-    position: absolute;
-    top: 30px;
-    left: 50px;
-    max-width: 40px;
-    max-height: 40px;
+  .text {
+    width: 350px;
+    margin-top: 70px;
   }
 
-  .imgBottom {
-    position: absolute;
-    bottom: 100px;
-    right: 15px;
-    max-width: 40px;
-    max-height: 40px;
+  .homeLogo {
+    display: none;
   }
 }

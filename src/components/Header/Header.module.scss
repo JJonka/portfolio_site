@@ -53,16 +53,18 @@
   .header-home {
     color: var(--main-color);
     font-family: "BraahOne-Regular";
-    font-size: 60px;
-    margin-bottom: 30px;
-    margin-top: 15px;
+    font-size: 90px;
+    margin-bottom: 40px;
+    margin-top: 80px;
+    width: 350px;
+    text-align: center;
   }
 
   .header-work {
     color: var(--main-color);
     font-family: "BraahOne-Regular";
-    font-size: 25px;
+    font-size: 40px;
     margin-bottom: 0px;
-    margin-top: 15px;
+    margin-top: 40px;
   }
 }

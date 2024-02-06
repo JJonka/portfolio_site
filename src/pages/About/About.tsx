@@ -32,19 +32,6 @@ const About = () => (
               -&nbsp;fond&nbsp;of&nbsp;swimming,&nbsp;jogging&nbsp;and&nbsp;hiking
             </Box>
           </Item>
-          <Item page="item3-about">
-            <Box data-testid="Box" header="In many sentences">
-              <a
-                href={CV}
-                download="JJuraszCV.pdf"
-                target="_blank"
-                rel="noopener noreferrer"
-                className={styles.link}
-              >
-                Click here to download my CV
-              </a>
-            </Box>
-          </Item>
           <Item page="item2-about">
             <Box data-testid="Box" header="In a few sentences">
               <br />
@@ -61,6 +48,19 @@ const About = () => (
               skills, but also improve them.
               <br />
               <br />
+            </Box>
+          </Item>
+          <Item page="item3-about">
+            <Box data-testid="Box" header="In many sentences">
+              <a
+                href={CV}
+                download="JJuraszCV.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
+                className={styles.link}
+              >
+                Click here to download my CV
+              </a>
             </Box>
           </Item>
         </div>
