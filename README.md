@@ -1,6 +1,6 @@
 # 🎇 Portfolio website
 
-![Alt text](public/assets/screenshot.png)
+![Alt text](public/assets/newscreenshot.png)
 
 ### Welcome to my portfolio website!
 
