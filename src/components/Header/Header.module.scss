@@ -1,0 +1,68 @@
+.header-about {
+  color: var(--main-color);
+  font-family: "BraahOne-Regular";
+  font-size: 90px;
+  margin-bottom: 40px;
+  text-justify: auto;
+}
+
+.header-contact {
+  color: var(--main-color);
+  font-family: "BraahOne-Regular";
+  font-size: 70px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.header-home {
+  color: var(--main-color);
+  text-align: left;
+  font-family: "BraahOne-Regular";
+  font-size: 120px;
+  margin-bottom: 10px;
+  margin-top: 15px;
+  width: 750px;
+  font-weight: 700;
+}
+
+.header-work {
+  color: var(--main-color);
+  font-family: "BraahOne-Regular";
+  font-size: 60px;
+  margin-bottom: 0px;
+  margin-top: 15px;
+}
+
+@media only screen and (max-width: 480px) {
+  .header-about {
+    color: var(--main-color);
+    font-family: "BraahOne-Regular";
+    font-size: 50px;
+    margin-top: 0px;
+    margin-bottom: 5px;
+  }
+
+  .header-contact {
+    color: var(--main-color);
+    font-family: "BraahOne-Regular";
+    font-size: 50px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+  }
+
+  .header-home {
+    color: var(--main-color);
+    font-family: "BraahOne-Regular";
+    font-size: 60px;
+    margin-bottom: 30px;
+    margin-top: 15px;
+  }
+
+  .header-work {
+    color: var(--main-color);
+    font-family: "BraahOne-Regular";
+    font-size: 25px;
+    margin-bottom: 0px;
+    margin-top: 15px;
+  }
+}

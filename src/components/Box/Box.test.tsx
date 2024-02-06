@@ -4,11 +4,18 @@ import "@testing-library/jest-dom";
 import Box from "./Box";
 
 describe("Box", () => {
-  it("text 'Box' should be rendered", () => {
+  it("should render child properly", () => {
     // ARRANGE && ACT
     const { getByText } = render(<Box>Box</Box>);
 
     // ASSERT
     expect(getByText("Box")).toBeInTheDocument();
+  });
+  it("should render prop header properly", () => {
+    // ARRANGE && ACT
+    const { getByText } = render(<Box header="My header">Box</Box>);
+
+    // ASSERT
+    expect(getByText("My header")).toBeInTheDocument();
   });
 });
