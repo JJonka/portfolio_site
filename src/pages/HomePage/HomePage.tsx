@@ -10,7 +10,6 @@ import styles from "./HomePage.module.scss";
 const HomePage = () => (
   <Card>
     <Menu></Menu>
-
     <Transitions>
       <Container page="container-home">
         <div className={styles.text}>
@@ -22,9 +21,6 @@ const HomePage = () => (
         </div>
         <ReactSVG src={"/assets/logoHome.svg"} className={styles.homeLogo} />
       </Container>
-    </Transitions>
-
-    <Transitions>
       <Copyright></Copyright>
     </Transitions>
   </Card>

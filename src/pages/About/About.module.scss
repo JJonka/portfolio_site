@@ -15,13 +15,6 @@
   gap: 40px;
 }
 
-.column {
-  display: flex;
-  flex-direction: column;
-  align-items: baseline;
-  gap: 40px;
-}
-
 .link {
   text-decoration: none;
   color: var(--main-color);
@@ -44,11 +37,20 @@
   }
 
   .text {
-    height: 290px;
+    height: 1000px;
     width: 350px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+  }
+
+  .link {
+    text-decoration: none;
+    color: var(--main-color);
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-left: 0px;
   }
 }
