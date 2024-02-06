@@ -9,11 +9,31 @@
 }
 
 .text {
-  height: 400px;
   width: 1200px;
+  display: grid;
+  align-items: baseline;
+  gap: 40px;
+}
+
+.column {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: baseline;
+  gap: 40px;
+}
+
+.link {
+  text-decoration: none;
+  color: var(--main-color);
+  font-weight: 700;
+  font-size: 20px;
+  margin-top: 20px;
+  margin-left: 70px;
+}
+
+.link:hover {
+  transition: 1s;
+  color: #daba027b;
 }
 
 @media only screen and (max-width: 480px) {

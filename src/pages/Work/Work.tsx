@@ -17,7 +17,7 @@ const Work = () => (
       <Container page="container-work">
         <Header page="header-work">Work history</Header>
         <Project>
-          <Item page="item1">
+          <Item page="item1-work">
             <Box header={"KAR HUD Software Development"}>
               <WorkDate>{"2023.11 - present"}</WorkDate>
               <br />
@@ -34,7 +34,7 @@ const Work = () => (
               managing application's server (Express.js). <br /> <br />
             </Box>
           </Item>
-          <Item page="item2">
+          <Item page="item2-work">
             <Box>
               Currently, I am mainly focused on creating a web application for a
               building depot. The project requires creating a database with the
@@ -46,7 +46,7 @@ const Work = () => (
         </Project>
         <Header page="header-work">Internships</Header>
         <Project>
-          <Item page="item1">
+          <Item page="item1-work">
             <Box header={"Application for estate agents"}>
               <WorkDate>{"2023.04 - 2023.11"}</WorkDate>
               <br />
@@ -60,7 +60,7 @@ const Work = () => (
               working using technologies like Github and Jira.
             </Box>
           </Item>
-          <Item page="item2">
+          <Item page="item2-work">
             <Box header={"Technologies"}>
               React, Typescript, Nextjs, Styled&nbsp;components, Graphql, Nest,
               Prisma
@@ -68,7 +68,7 @@ const Work = () => (
           </Item>
         </Project>
         <Project>
-          <Item page="item1">
+          <Item page="item1-work">
             <Box header={"Buisness Homepage"}>
               <WorkDate>{"2022.06"}</WorkDate>
               <br />
@@ -83,12 +83,12 @@ const Work = () => (
               ></img>
             </Box>
           </Item>
-          <Item page="item2">
+          <Item page="item2-work">
             <Box header={"Technologies"}>
               HTML, CSS, VanillaJS, JavaScript, Jira, Git
             </Box>
           </Item>
-          <Item page="item3">
+          <Item page="item3-work">
             <Box header="Links">
               <a
                 href="http://geodesy-web-page.vercel.app"
@@ -111,16 +111,17 @@ const Work = () => (
       <Container page="container-work">
         <Header page="header-work">Projects</Header>
         <Project>
-          <Item page="item1">
+          <Item page="item1-work">
             <Box header={"My portfolio site"}>
               <WorkDate>{"2023.09 - 2023.10"}</WorkDate>
               <br />
               During work on my portfolio website I have used technologies:
               React, Typescript, HTML, CSS Modules, Vite. <br />
               <br />
-              Click and checkout its repository:
-              <br />
-              <br />
+            </Box>
+          </Item>
+          <Item page="item2-work">
+            <Box header="Click to checkout code">
               <a
                 href="https://github.com/JJonka/portfolio_site"
                 target="_blank"
@@ -132,7 +133,7 @@ const Work = () => (
           </Item>
         </Project>
         <Project>
-          <Item page="item1">
+          <Item page="item1-workLast">
             <Box
               header={
                 "Creating a hemoglobin measuring device using Arduino and 3D printing technology"
@@ -153,7 +154,7 @@ const Work = () => (
               measurements.
             </Box>
           </Item>
-          <Item page="item2">
+          <Item page="item2-workLast">
             <Box header={"Designs and prints"}>
               <img
                 className={styles.image}

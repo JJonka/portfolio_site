@@ -5,6 +5,8 @@ import Card from "../../components/Card/Card";
 import Transitions from "../../components/Transitions/Transitions";
 import Container from "../../components/Container/Container";
 import Header from "../../components/Header/Header";
+import CV from "../../CVJJurasz.pdf";
+import Item from "../../components/Item/Item";
 
 const About = () => (
   <Card>
@@ -17,16 +19,50 @@ const About = () => (
           className={styles.image}
           alt="Jo_pic"
         ></img>
+        <Header page="header-about">That's me.</Header>
         <div className={styles.text}>
-          <Header page="header-about">That's me.</Header>
-          <Box data-testid="Box">
-            &emsp;If I had to describe myself in a few words, I&nbsp;would say
-            that I am reliable, curious about the&nbsp;world and always ready to
-            learn something new. I&nbsp;find pleasure in designing and creating
-            things. Nowadays, I&nbsp;spend time making web applications and
-            improving my programming skills. Besides that, in my spare time I
-            like to go swimming, jogging or hiking with my friends.
-          </Box>
+          <Item page="item1-about">
+            <Box data-testid="Box" header="In a few words">
+              -&nbsp;reliable <br />
+              -&nbsp;curious&nbsp;about&nbsp;the&nbsp;world <br />
+              -&nbsp;always&nbsp;ready&nbsp;to&nbsp;learn&nbsp;something&nbsp;new
+              <br />
+              -&nbsp;spending&nbsp;time&nbsp;making&nbsp;web&nbsp;applications
+              <br />
+              -&nbsp;fond&nbsp;of&nbsp;swimming,&nbsp;jogging&nbsp;and&nbsp;hiking
+            </Box>
+          </Item>
+          <Item page="item3-about">
+            <Box data-testid="Box" header="In many sentences">
+              <a
+                href={CV}
+                download="JJuraszCV.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
+                className={styles.link}
+              >
+                Click here to download my CV
+              </a>
+            </Box>
+          </Item>
+          <Item page="item2-about">
+            <Box data-testid="Box" header="In a few sentences">
+              <br />
+              &emsp;I am a junior fullstack developer. I have been working with
+              frontend (React, Typescript, HTML, and CSS Modules) and backend
+              (Express, Prisma, MongoDB, Docker) technologies. Currently, I am
+              working on a web application for building depot, which ought to be
+              a catalog of products. My role in this project not only includes
+              programming, but also making decisions about which technology or
+              solution to use. It gives me the opportunity to learn every step
+              in application making. It is very challenging, but I find pleasure
+              in designing, creating, and fixing things, so it gives me a great
+              satisfaction. I am open to work where I could make good use of my
+              skills, but also improve them.
+              <br />
+              <br />
+            </Box>
+          </Item>
         </div>
       </Container>
     </Transitions>
