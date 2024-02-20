@@ -47,7 +47,6 @@
     color: $main-color-red;
     margin: 10px 10px;
     padding: 5px 15px;
-    background-color: $boxes-background-color;
-    border-radius: 50px;
+    text-decoration: underline $main-color-grey 3px;
   }
 }
