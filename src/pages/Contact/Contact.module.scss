@@ -21,11 +21,11 @@ a {
   text-decoration: none;
 }
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 1260px) {
   .logos {
     display: flex;
     flex-direction: column;
-    gap: 30px;
+    gap: 60px;
     margin-top: 0px;
     margin-bottom: 200px;
     justify-content: center;

@@ -15,20 +15,32 @@
   height: 100%;
 }
 
-@media only screen and (max-width: 480px) {
-  .item1 {
+@media only screen and (max-width: 1260px) {
+  .item1-about {
+    display: flex;
+    flex-direction: column;
     text-align: justify;
     width: 400px;
-    align-items: left;
-    justify-content: baseline;
+    height: 300px;
+    margin-top: 0px;
+    margin-bottom: 40px;
+    justify-content: center;
+    align-items: center;
   }
-  .item2 {
+  .item2-work {
+    display: flex;
+    flex-direction: column;
     text-align: left;
-    align-items: left;
+    align-items: center;
+    justify-content: center;
+    width: 400px;
   }
 
-  .item3 {
-    align-items: baseline;
+  .item1-work {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     text-align: left;
+    width: 400px;
   }
 }

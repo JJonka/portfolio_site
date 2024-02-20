@@ -48,7 +48,7 @@ const About = () => (
         </div>
       </Container>
       <Container page="container-work">
-        <Header page="header-work">Technologies I work with</Header>
+        <Header page="header-about">Technologies I work with</Header>
         <div className={styles.logos}>
           <div className={styles.line}>
             <TechIcon icon="/assets/techLogos/html.svg" tooltipText="HTML" />

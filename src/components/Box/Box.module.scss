@@ -47,15 +47,15 @@ h1 {
   color: $main-color-dark;
 }
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 1260px) {
   .box {
     background-color: rgba(255, 253, 229, 0.277);
-    border-color: var(--main-color);
+    border-color: $main-color-red;
     border-radius: 50px;
     border-style: solid;
     border-width: 3px;
     width: 345px;
-    align-items: center;
+    align-items: baseline;
   }
 
   .text {
@@ -69,8 +69,8 @@ h1 {
     padding-right: 25px;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    text-align: left;
+    align-items: baseline;
+    text-align: justify;
   }
 
   h1 {

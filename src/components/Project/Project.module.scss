@@ -1,18 +1,18 @@
 .project {
+  display: flex;
+  flex-direction: column;
   margin-bottom: 30px;
   margin-top: 30px;
-  display: grid;
-  grid-template-columns: auto auto auto;
   gap: 30px;
 }
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 1260px) {
   .project {
     margin-bottom: 30px;
     margin-top: 20px;
     display: flex;
     flex-direction: column;
-    grid-template-columns: auto auto;
+    justify-content: center;
     gap: 30px;
   }
 }
