@@ -5,6 +5,7 @@ import Copyright from "../../components/Copyright/Copyright";
 import Header from "../../components/Header/Header";
 import Menu from "../../components/Menu/Menu";
 import Transitions from "../../components/Transitions/Transitions";
+import Button from "../../components/Button/Button";
 import styles from "./HomePage.module.scss";
 
 const HomePage = () => (
@@ -13,16 +14,19 @@ const HomePage = () => (
     <Transitions>
       <Container page="container-home">
         <div className={styles.text}>
-          <Header page="header-home">Hello, world! I'm Joanna.</Header>
+          <Header page="header-home">Hi! I am Joanna,</Header>
           <h2 data-testid="h2" className={styles.introduction}>
-            A junior fullstack developer, <br />
-            ready to work and gain experience.
+            a junior fullstack developer. <br />
           </h2>
+          <div className={styles.buttonsContainer}>
+            <Button link="/about">About</Button>
+            <Button link="/contact">Contact me</Button>
+          </div>
         </div>
-        <ReactSVG src={"/assets/logoHome.svg"} className={styles.homeLogo} />
+        <ReactSVG src={"/assets/mimosa.svg"} className={styles.homeLogo} />
       </Container>
-      <Copyright></Copyright>
     </Transitions>
+    <Copyright></Copyright>
   </Card>
 );
 

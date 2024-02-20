@@ -9,6 +9,6 @@ describe("Copyright", () => {
     const { getByText } = render(<Copyright></Copyright>);
 
     // ASSERT
-    expect(getByText("© 2023 Joanna Jurasz")).toBeInTheDocument();
+    expect(getByText("© 2024 Joanna Jurasz")).toBeInTheDocument();
   });
 });

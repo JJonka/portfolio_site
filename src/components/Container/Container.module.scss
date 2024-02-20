@@ -1,11 +1,11 @@
 .container-about {
   display: flex;
-  flex-direction: column;
-  height: 1000px;
+  flex-direction: row;
   width: 1200px;
-  margin-bottom: 80px;
-  text-align: justify;
+  padding-bottom: 45px;
+  height: 485px;
   align-items: center;
+  justify-content: center;
 }
 
 .container-contact {
@@ -21,13 +21,13 @@
 .container-home {
   display: flex;
   flex-direction: row;
-  align-items: center;
+  align-items: baseline;
   width: 1300px;
   height: 530px;
   margin-bottom: 0px;
   margin-top: 0px;
   margin-left: 80px;
-  gap: 70px;
+  gap: 30px;
 }
 
 .container-work {
@@ -36,8 +36,7 @@
   align-items: center;
   position: relative;
   width: 1200px;
-  margin-top: 10px;
-  margin-bottom: 20px;
+  padding-bottom: 0px;
 }
 
 @media only screen and (max-width: 480px) {

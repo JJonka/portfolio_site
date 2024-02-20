@@ -7,6 +7,7 @@ import Container from "../../components/Container/Container";
 import Header from "../../components/Header/Header";
 import Card from "../../components/Card/Card";
 import Transitions from "../../components/Transitions/Transitions";
+import { BrowserRouter } from "react-router-dom";
 
 vi.mock("../../components/Card/Card", () => ({
   default: (props: ComponentProps<typeof Card>) => <div>{props.children}</div>,
@@ -33,16 +34,16 @@ vi.mock("../../components/Header/Header", () => ({
 describe("HomePage", () => {
   it("should render the children properly with their props", () => {
     // ARRANGE && ACT
-    const { getByText, getByTestId } = render(<HomePage></HomePage>);
+    const { getByText, getByTestId } = render(<HomePage></HomePage>, {
+      wrapper: BrowserRouter,
+    });
 
     // ASSERT
     expect(getByText("Menu")).toBeInTheDocument();
-    expect(getByText("Hello, world! I'm Joanna.")).toBeInTheDocument();
+    expect(getByText("Hi! I am Joanna,")).toBeInTheDocument();
 
     expect(getByTestId("container-home")).toBeInTheDocument();
     expect(getByTestId("header-home")).toBeInTheDocument();
-    expect(getByTestId("imageTop")).toBeInTheDocument();
-    expect(getByTestId("imageBottom")).toBeInTheDocument();
     expect(getByTestId("h2")).toBeInTheDocument();
   });
 });

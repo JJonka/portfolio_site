@@ -1,6 +1,6 @@
 .project {
-  margin-bottom: 50px;
-  margin-top: 50px;
+  margin-bottom: 30px;
+  margin-top: 30px;
   display: grid;
   grid-template-columns: auto auto auto;
   gap: 30px;
@@ -12,7 +12,7 @@
     margin-top: 20px;
     display: flex;
     flex-direction: column;
-    grid-template-columns: auto auto auto;
+    grid-template-columns: auto auto;
     gap: 30px;
   }
 }
