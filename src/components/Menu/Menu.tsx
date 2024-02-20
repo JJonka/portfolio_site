@@ -6,22 +6,22 @@ const Menu = () => (
     <div className={styles.menu}>
       <LinkToPage
         link={"/"}
-        urlTo={"http://localhost:5173/"}
+        urlTo={"http://jjurasz.com/"}
         linkTitle={"Home"}
       ></LinkToPage>
       <LinkToPage
         link={"/about"}
-        urlTo={"http://localhost:5173/about"}
+        urlTo={"http://jjurasz.com/about"}
         linkTitle={"About"}
       ></LinkToPage>
       <LinkToPage
         link={"/work"}
-        urlTo={"http://localhost:5173/work"}
+        urlTo={"http://jjurasz.com/work"}
         linkTitle={"Work"}
       ></LinkToPage>
       <LinkToPage
         link={"/contact"}
-        urlTo={"http://localhost:5173/contact"}
+        urlTo={"http://jjurasz.com/contact"}
         linkTitle={"Contact"}
       ></LinkToPage>
     </div>
