@@ -1,21 +1,38 @@
+@import "../../variables.scss";
+
 @font-face {
   font-family: "BraahOne-Regular";
   src: url(/fonts/BraahOne-Regular.ttf);
 }
 
 .introduction {
-  color: rgb(200, 170, 23);
+  color: $main-color-dark;
   text-align: left;
   font-family: "BraahOne-Regular";
   font-size: 40px;
   font-weight: 20;
-  margin-top: 5px;
+  margin: 0px;
 }
 
 .text {
   display: flex;
   flex-direction: column;
-  width: 750px;
+  width: 650px;
+  margin-top: 100px;
+  margin-left: 40px;
+}
+
+.buttonsContainer {
+  display: flex;
+  flex-direction: row;
+  margin-top: 15px;
+}
+
+.homeLogo {
+  width: 600px;
+  position: absolute;
+  right: 40px;
+  bottom: -25px;
 }
 
 @media only screen and (max-width: 480px) {

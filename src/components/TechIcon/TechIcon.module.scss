@@ -1,37 +1,93 @@
-
+@import "../../variables.scss";
 
 .logo {
-    svg {
-        fill: var(--main-color);
-        width: 90px;
-        height: 90px;
-    }
-    margin-top: 10px;
+  svg {
+    fill: $main-color-red;
+    width: 90px;
+    height: 90px;
+  }
+  margin-top: 10px;
 }
 
 .logo:hover {
-    svg {
-        fill: #daba0291;
-        transition: 1s;
-    }
+  svg {
+    fill: $main-color-dark;
+    transition: 1s;
+  }
 }
 
 .tooltip {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  background-color: $main-color-red;
+  color: $main-color-light;
+  text-align: center;
+  padding: 10px 0;
+  border-radius: 6px;
+  opacity: 0;
+  transition: opacity 2s;
+  bottom: 100%;
+  position: absolute;
+  font-family: "Barlow-Medium";
+  width: 100%;
+  font-size: 16px;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+
+.tooltip .tooltiptext::after {
+  content: " ";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: $main-color-red transparent transparent transparent;
+}
+
+@media only screen and (max-width: 480px) {
+  .logo {
+    svg {
+      fill: $main-color-red;
+      width: 50px;
+      height: 50px;
+    }
+    margin-top: 10px;
+  }
+
+  .logo:hover {
+    svg {
+      fill: $main-color-dark;
+      transition: 1s;
+    }
+  }
+
+  .tooltip {
     position: relative;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+  }
 
-}
-
-.tooltip .tooltiptext {
+  .tooltip .tooltiptext {
     visibility: hidden;
-    background-color: var(--main-color);
-    color: #0000a3;
+    background-color: $main-color-red;
+    color: $main-color-light;
     text-align: center;
     padding: 10px 0;
-    border-radius: 6px;    
+    border-radius: 6px;
     opacity: 0;
     transition: opacity 2s;
     bottom: 100%;
@@ -39,81 +95,21 @@
     font-family: "Barlow-Medium";
     width: 140px;
     font-size: 13px;
-    
-}
+  }
 
-.tooltip:hover .tooltiptext {
+  .tooltip:hover .tooltiptext {
     visibility: visible;
     opacity: 1;
-}
+  }
 
-.tooltip .tooltiptext::after {
+  .tooltip .tooltiptext::after {
     content: " ";
     position: absolute;
-    top: 100%; 
+    top: 100%;
     left: 50%;
     margin-left: -5px;
     border-width: 5px;
     border-style: solid;
-    border-color: var(--main-color) transparent transparent transparent;
-}
-
-@media only screen and (max-width: 480px) {
-    .logo {
-        svg {
-            fill: var(--main-color);
-            width: 50px;
-            height: 50px;
-        }
-        margin-top: 10px;
-    }
-    
-    .logo:hover {
-        svg {
-            fill: #daba0291;
-            transition: 1s;
-        }
-    }
-    
-    .tooltip {
-        position: relative;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-    
-    }
-    
-    .tooltip .tooltiptext {
-        visibility: hidden;
-        background-color: var(--main-color);
-        color: #0000a3;
-        text-align: center;
-        padding: 10px 0;
-        border-radius: 6px;    
-        opacity: 0;
-        transition: opacity 2s;
-        bottom: 100%;
-        position: absolute;
-        font-family: "Barlow-Medium";
-        width: 140px;
-        font-size: 13px;
-        
-    }
-    
-    .tooltip:hover .tooltiptext {
-        visibility: visible;
-        opacity: 1;
-    }
-    
-    .tooltip .tooltiptext::after {
-        content: " ";
-        position: absolute;
-        top: 100%; 
-        left: 50%;
-        margin-left: -5px;
-        border-width: 5px;
-        border-style: solid;
-        border-color: var(--main-color) transparent transparent transparent;
-    }
+    border-color: $main-color-red transparent transparent transparent;
+  }
 }

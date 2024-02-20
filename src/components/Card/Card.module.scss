@@ -1,5 +1,8 @@
 .card {
   display: flex;
   flex-direction: column;
+  overflow: visible;
+  position: relative;
   align-items: center;
+  width: 96vw;
 }

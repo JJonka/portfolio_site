@@ -1,73 +1,74 @@
+@import "../../variables.scss";
+
 .logo {
-    svg {
-        padding-top: 20px;
-        max-width: 150px;
-        max-height: 150px;
-        fill: var(--main-color);
-    }
+  svg {
+    padding-top: 20px;
+    max-width: 150px;
+    max-height: 150px;
+    fill: $main-color-red;
+  }
 }
 
 .logo:hover {
-    svg {
-        padding-top: 10px;
-        max-width: 200px;
-        max-height: 200px;
-        fill: var(--main-color);
-        transition: 1s;
-    }
+  svg {
+    padding-top: 10px;
+    max-width: 200px;
+    max-height: 200px;
+    fill: var(--main-color);
+    transition: 1s;
+    fill: $main-color-dark;
+  }
 }
 
 .logoBox {
-    width: 200px;
-    height: 150px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    
+  width: 200px;
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .logoText {
-    margin-top: 8px;
-    font-size: 20px;
-    text-decoration: none;
-    color: var(--main-color);
-    font-family: "Barlow-Medium";
+  margin-top: 8px;
+  font-size: 20px;
+  text-decoration: none;
+  color: $main-color-red;
+  font-family: "Barlow-Medium";
 }
 
 @media only screen and (max-width: 480px) {
-    .logo {
-        svg {
-            padding-top: 20px;
-            max-width: 120px;
-            max-height: 120px;
-            fill: var(--main-color);
-        }
+  .logo {
+    svg {
+      padding-top: 20px;
+      max-width: 120px;
+      max-height: 120px;
+      fill: $main-color-red;
     }
-    
-    .logo:hover {
-        svg {
-            padding-top: 20px;
-            max-width: 120px;
-            max-height: 120px;
-            fill: var(--main-color);
-        }
+  }
+
+  .logo:hover {
+    svg {
+      padding-top: 20px;
+      max-width: 120px;
+      max-height: 120px;
+      fill: $main-color-dark;
     }
-    
-    .logoBox {
-        width: 170px;
-        height: 120px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        margin-bottom: 50px;
-        
-    }
-    
-    .logoText {
-        margin-top: 5px;
-        font-size: 20px;
-        text-decoration: none;
-        color: var(--main-color);
-        font-family: "Barlow-Medium";
-    }
+  }
+
+  .logoBox {
+    width: 170px;
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 50px;
+  }
+
+  .logoText {
+    margin-top: 5px;
+    font-size: 20px;
+    text-decoration: none;
+    color: $main-color-red;
+    font-family: "Barlow-Medium";
+  }
 }

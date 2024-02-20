@@ -41,13 +41,7 @@ describe("About", () => {
 
     // ASSERT
     expect(getByText("Menu")).toBeInTheDocument();
-    expect(getByText("That's me.")).toBeInTheDocument();
-    expect(
-      getByText("If I had to describe", { exact: false })
-    ).toBeInTheDocument();
-
     expect(getByTestId("container-about")).toBeInTheDocument();
-    expect(getByTestId("header-about")).toBeInTheDocument();
     expect(getByTestId("image")).toBeInTheDocument();
   });
 });

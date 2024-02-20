@@ -1,7 +1,9 @@
+@import "../../variables.scss";
+
 .date {
   font-family: "Barlow-Regular";
   font-size: 15px;
-  color: rgb(8, 8, 145);
+  color: $main-color-dark;
   margin: 0;
   text-align: left;
 }
@@ -10,7 +12,7 @@
   .date {
     font-family: "Barlow-Regular";
     font-size: 15px;
-    color: rgb(8, 8, 145);
+    color: $main-color-dark;
     margin: 0;
     text-align: left;
   }

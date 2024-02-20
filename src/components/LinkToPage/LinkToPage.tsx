@@ -12,6 +12,7 @@ const LinkToPage = (props: IProps) => (
     <Link
       to={props.link}
       className={document.URL == props.urlTo ? styles.active : styles.link}
+      data-text={props.linkTitle}
     >
       {props.linkTitle}
     </Link>

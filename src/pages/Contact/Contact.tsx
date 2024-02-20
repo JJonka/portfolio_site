@@ -5,6 +5,7 @@ import Card from "../../components/Card/Card";
 import Transitions from "../../components/Transitions/Transitions";
 import Container from "../../components/Container/Container";
 import Header from "../../components/Header/Header";
+import Copyright from "../../components/Copyright/Copyright";
 
 const Contact = () => (
   <Card>
@@ -33,6 +34,7 @@ const Contact = () => (
           </a>
         </div>
       </Container>
+      <Copyright></Copyright>
     </Transitions>
   </Card>
 );

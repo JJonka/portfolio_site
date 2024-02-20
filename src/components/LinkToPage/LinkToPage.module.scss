@@ -1,52 +1,58 @@
+@import "../../variables.scss";
+
 .link {
   text-decoration: none;
-  color: var(--main-color);
-  margin: 10px 25px;
-  padding: 5px 20px;
+  color: $main-color-grey;
+  margin: 0px;
   font-family: "Barlow-Regular";
+  position: relative;
 }
 
-.link:hover {
-  margin: 10px 25px;
-  padding: 5px 20px;
-  background-color: rgba(255, 255, 255, 0.259);
-  border-radius: 50px;
-  transition: background-color 1s;
+.link::before {
+  content: attr(data-text);
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: $main-color-red;
+  overflow: hidden;
+  text-decoration: underline $main-color-grey 3px;
+  width: 0;
+  transition: 0.4s ease-in-out;
+}
+
+.link:hover::before {
+  width: 100%;
 }
 
 .active {
-    text-decoration: none;
-    color: var(--main-color);
-    margin: 10px 25px;
-    padding: 5px 20px;
-    background-color: rgba(255, 255, 255, 0.259);
-    border-radius: 50px;
+  text-decoration: none;
+  color: $main-color-red;
+  text-decoration: underline $main-color-grey 3px;
 }
 
 @media only screen and (max-width: 480px) {
-    .link {
-        text-decoration: none;
-        color: var(--main-color);
-        margin: 10px 10px;
-        padding: 5px 15px;
-        font-family: "Barlow-Regular";
-    }
-    
-    .link:hover {
-        margin: 10px 10px;
-        padding: 5px 15px;
-        background-color: rgba(255, 255, 255, 0.259);
-        border-radius: 50px;
-        transition: background-color 1s;
-    }
-    
-    .active {
-        text-decoration: none;
-        color: var(--main-color);
-        margin: 10px 10px;
-        padding: 5px 15px;
-        background-color: rgba(255, 255, 255, 0.259);
-        border-radius: 50px;
-    }
-}
+  .link {
+    text-decoration: none;
+    color: var(--main-color);
+    margin: 10px 10px;
+    padding: 5px 15px;
+    font-family: "Barlow-Regular";
+  }
 
+  .link:hover {
+    margin: 10px 10px;
+    padding: 5px 15px;
+    background-color: rgba(255, 255, 255, 0.259);
+    border-radius: 50px;
+    transition: background-color 1s;
+  }
+
+  .active {
+    text-decoration: none;
+    color: var(--main-color);
+    margin: 10px 10px;
+    padding: 5px 15px;
+    background-color: rgba(255, 255, 255, 0.259);
+    border-radius: 50px;
+  }
+}

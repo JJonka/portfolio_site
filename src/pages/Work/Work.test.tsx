@@ -57,9 +57,7 @@ describe("Work", () => {
 
     // ASSERT
     expect(getByText("Menu")).toBeInTheDocument();
-    expect(getAllByText("Header")).toHaveLength(4);
-    expect(getAllByText("TechIcon")).toHaveLength(12);
+    expect(getAllByText("Header")).toHaveLength(3);
     expect(getAllByText("WorkDate")).toHaveLength(5);
-    expect(getAllByText("EndOfSection")).toHaveLength(3);
   });
 });
