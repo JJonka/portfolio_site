@@ -34,11 +34,11 @@
   margin-top: 15px;
 }
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 1260px) {
   .header-about {
     color: $main-color-red;
     font-family: "BraahOne-Regular";
-    font-size: 50px;
+    font-size: 30px;
     margin-top: 0px;
     margin-bottom: 5px;
   }
@@ -54,10 +54,10 @@
   .header-home {
     color: $main-color-red;
     font-family: "BraahOne-Regular";
-    font-size: 90px;
-    margin-bottom: 40px;
-    margin-top: 80px;
-    width: 350px;
+    font-size: 70px;
+    margin-bottom: 0px;
+    margin-top: 30px;
+    width: 330px;
     text-align: center;
   }
 
