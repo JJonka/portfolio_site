@@ -61,6 +61,11 @@
   }
 
   .homeLogo {
-    display: none;
+    svg {
+      height: 380px;
+      width: 380px;
+    }
+    position: static;
+    margin-top: 20px;
   }
 }
