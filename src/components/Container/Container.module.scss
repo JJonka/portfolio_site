@@ -21,7 +21,7 @@
 .container-home {
   display: flex;
   flex-direction: row;
-  align-items: baseline;
+  align-items: flex-start;
   width: 1300px;
   height: 530px;
   margin-bottom: 0px;
@@ -67,7 +67,7 @@
     align-items: center;
     justify-content: baseline;
     width: 350px;
-    height: 800px;
+    height: 600px;
     margin-bottom: 0px;
     margin-top: 20px;
     margin-left: 0px;

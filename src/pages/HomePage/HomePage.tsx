@@ -9,25 +9,27 @@ import Button from "../../components/Button/Button";
 import styles from "./HomePage.module.scss";
 
 const HomePage = () => (
-  <Card>
-    <Menu></Menu>
-    <Transitions>
-      <Container page="container-home">
-        <div className={styles.text}>
-          <Header page="header-home">Hi! I am Joanna,</Header>
-          <h2 data-testid="h2" className={styles.introduction}>
-            a junior fullstack developer. <br />
-          </h2>
-          <div className={styles.buttonsContainer}>
-            <Button link="/about">About</Button>
-            <Button link="/contact">Contact me</Button>
+  <div className={styles.position}>
+    <Card>
+      <Menu></Menu>
+      <Transitions>
+        <Container page="container-home">
+          <div className={styles.text}>
+            <Header page="header-home">Hi! I am Joanna,</Header>
+            <h2 data-testid="h2" className={styles.introduction}>
+              a junior fullstack developer. <br />
+            </h2>
+            <div className={styles.buttonsContainer}>
+              <Button link="/about">About</Button>
+              <Button link="/contact">Contact me</Button>
+            </div>
           </div>
-        </div>
-        <ReactSVG src={"/assets/mimosa.svg"} className={styles.homeLogo} />
-      </Container>
-    </Transitions>
-    <Copyright></Copyright>
-  </Card>
+          <ReactSVG src={"/assets/mimosa.svg"} className={styles.homeLogo} />
+        </Container>
+      </Transitions>
+      <Copyright></Copyright>
+    </Card>
+  </div>
 );
 
 export default HomePage;

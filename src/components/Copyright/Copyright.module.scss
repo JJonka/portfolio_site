@@ -8,9 +8,9 @@
 .copyright {
   color: $main-color-dark;
   font-family: "Barlow-Medium";
-  position: absolute;
-  bottom: -20px;
-  left: -10px;
+  position: relative;
+  bottom: 0px;
+  right: 600px;
   font-size: 10px;
   padding-bottom: 5px;
 }

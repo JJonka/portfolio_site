@@ -1,3 +1,4 @@
+@import "../../variables.scss";
 @font-face {
   font-family: "Barlow-Medium";
   src: url(/fonts/Barlow-Medium.ttf);
@@ -8,20 +9,24 @@
   font-size: 20px;
   margin-top: 10px;
   margin-bottom: 30px;
-  width: 600px;
-  height: 15px;
-  padding: 20px;
+  width: 425px;
+  height: 30px;
+  padding: 7px;
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: left;
+  justify-content: center;
   gap: 50px;
+  border-radius: 50px;
+  border: solid $boxes-background-color 3px;
 }
 
 .card {
   display: flex;
+  position: relative;
   flex-direction: column;
-  align-items: baseline;
+  align-items: center;
+  right: 400px;
   margin-left: 0px;
   width: 90vw;
 }
