@@ -27,8 +27,8 @@ const HomePage = () => (
           <ReactSVG src={"/assets/mimosa.svg"} className={styles.homeLogo} />
         </Container>
       </Transitions>
-      <Copyright></Copyright>
     </Card>
+    <Copyright></Copyright>
   </div>
 );
 
