@@ -183,7 +183,7 @@ const Work = () => (
         </Container>
       </Transitions>
     </Card>
-    <Copyright></Copyright>
+    <Copyright page="copyright-work"></Copyright>
   </>
 );
 

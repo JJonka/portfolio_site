@@ -40,7 +40,7 @@ const Contact = () => (
         </Container>
       </Transitions>
     </Card>
-    <Copyright></Copyright>
+    <Copyright page="copyright-home"></Copyright>
   </>
 );
 

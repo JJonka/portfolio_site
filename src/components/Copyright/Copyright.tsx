@@ -1,10 +1,14 @@
 import styles from "./Copyright.module.scss";
 
-const Copyright = () => {
+interface IProps {
+  page: string;
+}
+
+const Copyright = (props: IProps) => {
   const date = Date.now();
   const year = new Date(date).getFullYear();
   return (
-    <div data-testid={"copyright"} className={styles.copyright}>
+    <div data-testid={"copyright"} className={styles[`${props.page}`]}>
       © {year} Joanna Jurasz
     </div>
   );

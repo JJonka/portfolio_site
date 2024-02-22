@@ -28,7 +28,7 @@ const HomePage = () => (
         </Container>
       </Transitions>
     </Card>
-    <Copyright></Copyright>
+    <Copyright page="copyright-home"></Copyright>
   </div>
 );
 

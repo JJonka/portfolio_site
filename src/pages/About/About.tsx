@@ -115,7 +115,7 @@ const About = () => (
         </Container>
       </Transitions>
     </Card>
-    <Copyright></Copyright>
+    <Copyright page="copyright-work"></Copyright>
   </>
 );
 
