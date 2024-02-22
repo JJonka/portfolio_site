@@ -12,8 +12,12 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
   font-family: "Barlow-Light";
   text-align: center;
   padding-left: calc(100vw - 100%);
   background-color: #cdb797;
+  min-height: 100vh;
+  margin: 0px;
+  overflow-x: hidden;
 }

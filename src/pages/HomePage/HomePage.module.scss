@@ -29,12 +29,16 @@
 }
 
 .homeLogo {
+  svg {
+    width: 600px;
+    height: 600px;
+  }
   position: relative;
-  bottom: 50px;
+  bottom: 60px;
   right: 40px;
 }
 
-@media only screen and (max-width: 1260px) {
+@media only screen and (max-width: 700px) {
   .introduction {
     color: $main-color-dark;
     font-family: "BraahOne-Regular";
@@ -61,10 +65,10 @@
 
   .homeLogo {
     svg {
-      height: 380px;
-      width: 380px;
+      height: 390px;
+      width: 390px;
     }
     position: static;
-    margin-top: 20px;
+    margin-top: 0px;
   }
 }

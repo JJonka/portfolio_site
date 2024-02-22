@@ -8,35 +8,40 @@ import Header from "../../components/Header/Header";
 import Copyright from "../../components/Copyright/Copyright";
 
 const Contact = () => (
-  <Card>
-    <Menu></Menu>
-    <Transitions>
-      <Container page="container-contact">
-        <Header page="header-contact">Let's stay in touch!</Header>
-        <div data-testid="logos" className={styles.logos}>
-          <a href="https://www.linkedin.com/in/joanna-jurasz/" target="_blank">
-            <LogoIcon
-              logo={"/assets/linkedin_logo.svg"}
-              logoText={"in/joanna-jurasz/"}
-            ></LogoIcon>
-          </a>
-          <a href="mailto:joanna.jurasz21@gmail.com">
-            <LogoIcon
-              logo={"/assets/mail_logo.svg"}
-              logoText={"joanna.jurasz21@gmail.com"}
-            ></LogoIcon>
-          </a>
-          <a href="https://github.com/JJonka" target="_blank">
-            <LogoIcon
-              logo={"/assets/github_logo.svg"}
-              logoText={"github.com/JJonka"}
-            ></LogoIcon>
-          </a>
-        </div>
-      </Container>
-      <Copyright></Copyright>
-    </Transitions>
-  </Card>
+  <>
+    <Card>
+      <Menu></Menu>
+      <Transitions>
+        <Container page="container-contact">
+          <Header page="header-contact">Let's stay in touch!</Header>
+          <div data-testid="logos" className={styles.logos}>
+            <a
+              href="https://www.linkedin.com/in/joanna-jurasz/"
+              target="_blank"
+            >
+              <LogoIcon
+                logo={"/assets/linkedin_logo.svg"}
+                logoText={"in/joanna-jurasz/"}
+              ></LogoIcon>
+            </a>
+            <a href="mailto:joanna.jurasz21@gmail.com">
+              <LogoIcon
+                logo={"/assets/mail_logo.svg"}
+                logoText={"joanna.jurasz21@gmail.com"}
+              ></LogoIcon>
+            </a>
+            <a href="https://github.com/JJonka" target="_blank">
+              <LogoIcon
+                logo={"/assets/github_logo.svg"}
+                logoText={"github.com/JJonka"}
+              ></LogoIcon>
+            </a>
+          </div>
+        </Container>
+      </Transitions>
+    </Card>
+    <Copyright></Copyright>
+  </>
 );
 
 export default Contact;
