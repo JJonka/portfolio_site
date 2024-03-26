@@ -19,3 +19,26 @@
   color: $main-color-red;
   margin-right: 16px;
 }
+
+// @media screen and (min-width: 1200px) {
+//   .button {
+//     width: 300px;
+//     height: 70px;
+//     border-radius: 50px;
+//     background-color: $boxes-background-color;
+//     font-family: "Barlow-Regular";
+//     color: $main-color-dark;
+//     font-size: 20px;
+//     display: flex;
+//     align-items: center;
+//     justify-content: center;
+//     margin-right: 20px;
+//   }
+
+//   .button:hover {
+//     border: solid 2px;
+//     border-color: $main-color-red;
+//     color: $main-color-red;
+//     margin-right: 16px;
+//   }
+// }

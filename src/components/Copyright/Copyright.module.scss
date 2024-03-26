@@ -54,3 +54,16 @@
     justify-content: center;
   }
 }
+
+@media only screen and (min-width: 1600px) {
+  .copyright-home {
+    justify-content: center;
+    height: 60px;
+    font-size: 30px;
+  }
+
+  .copyright-work {
+    position: static;
+    justify-content: center;
+  }
+}

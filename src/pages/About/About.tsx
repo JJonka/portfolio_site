@@ -4,7 +4,7 @@ import Box from "../../components/Box/Box";
 import Card from "../../components/Card/Card";
 import Transitions from "../../components/Transitions/Transitions";
 import Container from "../../components/Container/Container";
-import CV from "../../CVJJurasz.pdf";
+import CV from "../../JuraszCV.pdf";
 import Item from "../../components/Item/Item";
 import Copyright from "../../components/Copyright/Copyright";
 import TechIcon from "../../components/TechIcon/TechIcon";
@@ -33,13 +33,13 @@ const About = () => (
           <div className={styles.secondColumn}>
             <img
               data-testid="image"
-              src="/assets/jurasz.svg"
+              src="/assets/jjuraszphoto.svg"
               className={styles.image}
               alt="Jo_pic"
             ></img>
             <a
               href={CV}
-              download="JJuraszCV.pdf"
+              download="CVJurasz.pdf"
               target="_blank"
               rel="noopener noreferrer"
               className={styles.link}
