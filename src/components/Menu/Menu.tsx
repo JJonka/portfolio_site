@@ -4,24 +4,20 @@ import LinkToPage from "../LinkToPage/LinkToPage";
 const Menu = () => (
   <div className={styles.card}>
     <div className={styles.menu}>
-      <LinkToPage
-        link={"/"}
-        urlTo={"https://jjurasz.com/"}
-        linkTitle={"Home"}
-      ></LinkToPage>
+      <LinkToPage link={"/"} urlTo={"/"} linkTitle={"Home"}></LinkToPage>
       <LinkToPage
         link={"/about"}
-        urlTo={"https://jjurasz.com/about"}
+        urlTo={"/about"}
         linkTitle={"About"}
       ></LinkToPage>
       <LinkToPage
         link={"/work"}
-        urlTo={"https://jjurasz.com/work"}
+        urlTo={"/work"}
         linkTitle={"Work"}
       ></LinkToPage>
       <LinkToPage
         link={"/contact"}
-        urlTo={"https://jjurasz.com/contact"}
+        urlTo={"/contact"}
         linkTitle={"Contact"}
       ></LinkToPage>
     </div>
