@@ -14,7 +14,7 @@
   font-size: 13px;
   background-color: $main-color-red;
   width: 100%;
-  height: 25px;
+  height: 30px;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -33,7 +33,7 @@
   font-size: 13px;
   background-color: $main-color-red;
   width: 100%;
-  height: 25px;
+  height: 30px;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -43,7 +43,7 @@
   margin-left: -115px;
 }
 
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 500px) {
   .copyright-home {
     position: static;
     justify-content: center;
@@ -55,15 +55,15 @@
   }
 }
 
-@media only screen and (min-width: 1600px) {
-  .copyright-home {
-    justify-content: center;
-    height: 60px;
-    font-size: 30px;
-  }
+// @media only screen and (min-width: 1600px) {
+//   .copyright-home {
+//     justify-content: center;
+//     height: 60px;
+//     font-size: 30px;
+//   }
 
-  .copyright-work {
-    position: static;
-    justify-content: center;
-  }
-}
+//   .copyright-work {
+//     position: static;
+//     justify-content: center;
+//   }
+// }

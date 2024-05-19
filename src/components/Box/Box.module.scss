@@ -47,7 +47,7 @@ h1 {
   color: $main-color-dark;
 }
 
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 500px) {
   .box {
     background-color: rgba(255, 253, 229, 0.277);
     border-color: $main-color-red;

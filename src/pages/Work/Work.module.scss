@@ -54,7 +54,7 @@ li::marker {
   color: $main-color-red;
 }
 
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 500px) {
   .logos {
     display: flex;
     flex-direction: column;
